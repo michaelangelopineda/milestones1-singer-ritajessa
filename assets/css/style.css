@@ -20,8 +20,12 @@
     background-color: #dde9e6;
 }
 
-body .bg-color-release {
+.bg-color-release {
     background-color: #ff8649d7;
+}
+
+.bg-color-events {
+    background-color: #dde9e6;
 }
 /*--------------------------------------------------------------------------- Special paddings, margins, text*/
 h1,
@@ -194,3 +198,10 @@ video {
 }
 
 /*--------------------------------------------------------------------------- Events*/
+
+table {
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+
+/*--------------------------------------------------------------------------- BIO-photo*/
