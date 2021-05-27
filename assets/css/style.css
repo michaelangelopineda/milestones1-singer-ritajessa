@@ -27,12 +27,17 @@
 .bg-color-events {
     background-color: #dde9e6;
 }
+
+body .bg-color-photos {
+    background-color: #ff8649a1;
+}
 /*--------------------------------------------------------------------------- Special paddings, margins, text*/
 h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
     margin: 0;
     font-family: "Poppins", sans-serif;
     color: #008080;
