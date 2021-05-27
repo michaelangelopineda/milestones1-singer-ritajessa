@@ -6,6 +6,15 @@
     background-color: #00C9CD;
 }
 
+.bg-color-footer {
+    background-color: #00C9CD;
+}
+
+.bg-color-button {
+    background-color: #dde9e6;
+    border-color: transparent;
+}
+
 /*--------------------------------------------------------------------------- Special paddings, margins, text*/
 h1,
 h2,
@@ -49,16 +58,12 @@ header {
     font-weight: 600;
 }
 
-span .navbar-toggler-icon {
-    margin-right: 20px;
-    border: 2px solid;
-}
 
 .navbar-nav .nav-link {
     text-align: center;
 }
 
-/******* .navbar-light .navbar-nav .nav-link:visited,**         pls check what can be done/
+/******* .navbar-light .navbar-nav .nav-link:visited,**         pls check what can be done*/
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:active,
 .navbar-light .navbar-nav .nav-link:active:focus {
@@ -71,6 +76,11 @@ span .navbar-toggler-icon {
     margin-right: 20px;
 }
 
+span .navbar-toggler-icon {
+    margin-right: 20px;
+    border: 2px solid;
+}
+
 /**************************************** border to burger icon
 
 .navbar-light .navbar-toggler-icon {
@@ -78,3 +88,43 @@ span .navbar-toggler-icon {
 }
  *****************************************/
 
+/*--------------------------------------------------------------------------- Footer*/
+
+
+footer {
+    font-size: 30px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.input-group>.form-control,
+.input-group>.form-select {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    font-weight: 500;
+    font-family: ""Poppins, sans-serif;
+    color: black;
+}
+
+.list-inline-item i,
+.input-group {
+    padding-top: 20px;
+    color: black;
+}
+
+.list-inline-item i {
+    letter-spacing: 45px;
+}
+
+.list-inline-item i:hover {
+    color: white;
+}
+
+.socials {
+    text-align: center
+}
