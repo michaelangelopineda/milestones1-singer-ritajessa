@@ -20,6 +20,9 @@
     background-color: #dde9e6;
 }
 
+body .bg-color-release {
+    background-color: #ff8649d7;
+}
 /*--------------------------------------------------------------------------- Special paddings, margins, text*/
 h1,
 h2,
@@ -45,7 +48,12 @@ h5 {
     letter-spacing: 15px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
+    text-shadow: 2px 2px 4px #0000003a;
     color: #008080;
+}
+
+.light-font-color {
+    color: #E6F4F1;
 }
 
 /*--------------------------------------------------------------------------- Header*/
@@ -156,6 +164,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding: 10px 0;
+    
 }
 .table { 
     color: #008080;
@@ -169,4 +178,19 @@ img {
 }
 
 
-/*--------------------------------------------------------------------------- Footer*/
+/*--------------------------------------------------------------------------- Video Release*/
+
+video source {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+video {
+    max-width: 80%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+}
+
+/*--------------------------------------------------------------------------- Events*/
