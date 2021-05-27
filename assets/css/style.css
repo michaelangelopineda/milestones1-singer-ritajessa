@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
 
+
 /*--------------------------------------------------------------------------- Color*/
 
 .bg-color-navbar {
@@ -15,6 +16,10 @@
     border-color: transparent;
 }
 
+.bg-color-music {
+    background-color: #dde9e6;
+}
+
 /*--------------------------------------------------------------------------- Special paddings, margins, text*/
 h1,
 h2,
@@ -22,10 +27,17 @@ h3,
 h4,
 h5 {
     margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: #008080;
 }
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.gen-heading {
+    letter-spacing: 10px;
+    font-weight: 700;
 }
 
 #namelogo {
@@ -33,6 +45,7 @@ h5 {
     letter-spacing: 15px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
+    color: #008080;
 }
 
 /*--------------------------------------------------------------------------- Header*/
@@ -58,10 +71,14 @@ header {
     font-weight: 600;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: #008080;
+}
 
 .navbar-nav .nav-link {
     text-align: center;
 }
+
 
 /******* .navbar-light .navbar-nav .nav-link:visited,**         pls check what can be done*/
 .navbar-light .navbar-nav .nav-link:hover,
@@ -93,7 +110,7 @@ span .navbar-toggler-icon {
 
 footer {
     font-size: 30px;
-    color: black;
+    color:#008080;
     font-family: "Poppins", sans-serif;
 }
 
@@ -108,13 +125,13 @@ footer {
 .btn {
     font-weight: 500;
     font-family: ""Poppins, sans-serif;
-    color: black;
+    color:#008080;
 }
 
 .list-inline-item i,
 .input-group {
     padding-top: 20px;
-    color: black;
+    color:#008080;
 }
 
 .list-inline-item i {
@@ -128,3 +145,28 @@ footer {
 .socials {
     text-align: center
 }
+
+/*--------------------------------------------------------------------------- Music*/
+
+img {
+    max-width: 80%;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+}
+.table { 
+    color: #008080;
+}
+
+.song:hover,
+.song:active,
+.song:focus {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*--------------------------------------------------------------------------- Footer*/
