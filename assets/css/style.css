@@ -21,7 +21,7 @@
 }
 
 .bg-color-release {
-    background-color: #ff8649d7;
+    background-color: #ff8649a1;
 }
 
 .bg-color-events {
@@ -31,6 +31,11 @@
 body .bg-color-photos {
     background-color: #ff8649a1;
 }
+
+.bg-color-biography {
+    background-color: #dde9e6;
+}
+
 /*--------------------------------------------------------------------------- Special paddings, margins, text*/
 h1,
 h2,
@@ -53,8 +58,8 @@ h6 {
 }
 
 #namelogo {
-    font-size: 40px;
-    letter-spacing: 15px;
+    font-size: 2em;
+    letter-spacing: 10px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     text-shadow: 2px 2px 4px #0000003a;
@@ -63,6 +68,18 @@ h6 {
 
 .light-font-color {
     color: #E6F4F1;
+}
+
+.quotes-text1 {
+    color: #FF8749;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.quotes-text2 {
+    color: #FF8749;
+    font-family: "Roboto", sans-serif;
+    padding-top: 10px;
 }
 
 /*--------------------------------------------------------------------------- Header*/
@@ -74,6 +91,7 @@ header {
 #namelogo:hover {
     color: white;
 }
+
 
 .navbar-brand {
     margin-left: 20px;
@@ -127,7 +145,7 @@ span .navbar-toggler-icon {
 
 footer {
     font-size: 30px;
-    color:#008080;
+    color: #008080;
     font-family: "Poppins", sans-serif;
 }
 
@@ -142,13 +160,13 @@ footer {
 .btn {
     font-weight: 500;
     font-family: "Poppins", sans-serif;
-    color:#008080;
+    color: #008080;
 }
 
 .list-inline-item i,
 .input-group {
     padding-top: 20px;
-    color:#008080;
+    color: #008080;
 }
 
 .list-inline-item i {
@@ -173,9 +191,10 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding: 10px 0;
-    
+
 }
-.table { 
+
+.table {
     color: #008080;
 }
 
@@ -210,3 +229,15 @@ table {
 }
 
 /*--------------------------------------------------------------------------- BIO-photo*/
+
+/*--------------------------------------------------------------------------- BIO-biography*/
+
+
+
+/*--------------------------------------------------------------------------- BIO-biography media query*/
+
+/*---@media screen and (max-width:480px) {
+    .biography {
+        text-align: center;
+    }
+}-----------------------------------------------------------------------------------?will revisit the effect-seems not suitable*/
