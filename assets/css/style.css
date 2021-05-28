@@ -128,14 +128,18 @@ header {
     text-align: center;
 }
 
-
-/******* .navbar-light .navbar-nav .nav-link:visited,**         pls check what can be done*/
+.navbar-light .navbar-nav .nav-link:link,
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:active,
 .navbar-light .navbar-nav .nav-link:active:focus {
     color: white;
     text-align: center;
     font-size: 20px;
+}
+
+.navbar-collapse {
+    background-color: rgb(0 0 0 / 6%);;
+
 }
 
 .navbar-toggler {
@@ -321,7 +325,15 @@ form .btn {
         display: grid;
     }
 
-    .input-group>.form-control, .input-group>.form-select {
+    .input-group>.form-control,
+    .input-group>.form-select {
         width: auto;
+    }
 
-} 
+    /*https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder*/
+    textarea,
+    input::placeholder {
+        text-align: center;
+    }
+
+}
