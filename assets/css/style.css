@@ -294,7 +294,7 @@ form .btn {
 }
 
 @media only screen and (max-width: 320px) {
-    
+
     header .navbar {
         width: 100%;
     }
@@ -316,4 +316,12 @@ form .btn {
     .socials {
         margin-left: 20px;
     }
-}
+
+    .input-group {
+        display: grid;
+    }
+
+    .input-group>.form-control, .input-group>.form-select {
+        width: auto;
+
+} 
