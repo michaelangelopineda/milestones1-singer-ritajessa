@@ -44,6 +44,9 @@ body .bg-color-photos {
     background-color: #00C9CD;
     border-color: transparent;
 }
+.bg-color-urgent-contact {
+    background-color: #ff8649a1;
+}
 
 /*--------------------------------------------------------------------------- Special paddings, margins, text*/
 h1,
@@ -252,6 +255,10 @@ table {
 }-----------------------------------------------------------------------------------?will revisit the effect-seems not suitable*/
 
 /*--------------------------------------------------------------------------- CONTACT-form*/
+.text-spacing {
+    letter-spacing: 3px;
+}
+
 form .btn {
     font-weight: 500;
     font-family: "Poppins", sans-serif;
@@ -262,4 +269,9 @@ form .btn {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
+}
+
+/*--------------------------------------------------------------------------- CONTACT-urgent*/
+.music-production:hover {
+    color: white;
 }
