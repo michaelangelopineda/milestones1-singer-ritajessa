@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
 
+.bg-image {
+    height: 100vh;
+
+    background: url('/assets/images/bg-img.jpg') no-repeat top left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+
+
+ }
+
 
 /*--------------------------------------------------------------------------- Color*/
 
@@ -17,7 +31,7 @@
 }
 
 .bg-color-music {
-    background-color: #dde9e6;
+    background-color: #dde9e670;
 }
 
 .bg-color-release {
@@ -33,11 +47,11 @@ body .bg-color-photos {
 }
 
 .bg-color-biography {
-    background-color: #dde9e6;
+    background-color: #dde9e670;
 }
 
 .bg-color-contactform {
-    background-color: #dde9e6;
+    background-color: #dde9e670;
 }
 
 .bg-color-button2 {
@@ -105,7 +119,6 @@ header {
     color: white;
 }
 
-
 .navbar-brand {
     margin-left: 20px;
     padding-top: 10px;
@@ -138,7 +151,6 @@ header {
 }
 
 
-
 .navbar-toggler {
     margin-right: 20px;
 }
@@ -156,7 +168,6 @@ span .navbar-toggler-icon {
  *****************************************/
 
 /*--------------------------------------------------------------------------- Footer*/
-
 
 footer {
     font-size: 30px;
@@ -199,13 +210,17 @@ footer .btn {
 /*--------------------------------------------------------------------------- Music*/
 
 img {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 10px 0;
+    object-fit: cover;
+    object-position: 100% 200% ;
+
+
 
 }
 
@@ -219,7 +234,6 @@ img {
     text-align: center;
     font-weight: bold;
 }
-
 
 /*--------------------------------------------------------------------------- Video Release*/
 
@@ -246,7 +260,6 @@ table {
 /*--------------------------------------------------------------------------- BIO-photo*/
 
 /*--------------------------------------------------------------------------- BIO-biography*/
-
 
 
 /*--------------------------------------------------------------------------- BIO-biography media query*/
@@ -281,12 +294,21 @@ form .btn {
 
 /*--------------------------------------------------------------------------- media queries*/
 /*--------------------------------------------------------------------------- Mobile media queries*/
+
+
 @media only screen and (max-width: 768px) {
     .navbar-collapse {
-        background-color: rgb(0 0 0 / 6%);;
-    
+        background-color: rgb(0 0 0 / 6%);
+        ;
+
+    }
+
+    img {
+        max-width: 100%;
+
     }
 }
+
 @media only screen and (max-width: 600px) {
 
     #namelogo {
@@ -295,8 +317,14 @@ form .btn {
     }
 
     .navbar-collapse {
-        background-color: rgb(0 0 0 / 6%);;
+        background-color: rgb(0 0 0 / 6%);
+        ;
+
+    }
     
+    img {
+        max-width: 80%;
+
     }
 
     audio {
@@ -316,8 +344,14 @@ form .btn {
     }
 
     .navbar-collapse {
-        background-color: rgb(0 0 0 / 6%);;
-    
+        background-color: rgb(0 0 0 / 6%);
+        ;
+
+    }
+
+    img {
+        max-width: 80%;
+
     }
     audio {
         width: 10em;
