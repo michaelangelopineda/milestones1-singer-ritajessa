@@ -50,30 +50,36 @@ The target audience for this site is anyone who is interested in gospel music re
     Overall, the design is simple and clean. The design was based from the artist’s personality and purpose of singing. She wants her website to speak about who she is.
 
     -   #### Colour Scheme
-        -   As per the artist’s description of herself, she is an open, optimistic and approachable and her main purpose in singing is to inspire people. Her genre of music is gospel, which has a soothing and calming effect that affects the brain positively, can elevate your mood, and the lyrics have a way of elevating your spirituality to the next level and helps with your stress level according to [therelativegospel.com](https://tinyurl.com/fhsxnsra). Because of these reasons, we opted to use teal.
+        As per the artist’s description of herself, she is an open, optimistic and approachable and her main purpose in singing is to inspire people. Her genre of music is gospel, which has a soothing and calming effect that affects the brain positively, can elevate your mood, and the lyrics have a way of elevating your spirituality to the next level and helps with your stress level according to [therelativegospel.com](https://tinyurl.com/fhsxnsra). Because of these reasons, we opted to use teal.
 
         According to [colorpsychology.org](https://tinyurl.com/aahy3z4w), teal (#008080) blends blue’s tranquil stability with green’s optimism and healing properties. Teal is the colour of restfulness and mental and spiritual balance. The calm shade has a natural dignity that is not contrived or “in your face.” Teal’s understated elegance encourages a calm, reflective mood.
 
         In addition to teal, I used [mycolor.space](https://mycolor.space/?hex=%23008080&sub=1) to find complementary colours for teal that would maintain overall aesthetic and feel of teal. The colours are listed below:
 
-        #008080-teal, RGB value is (0,128,128) blue green
-        #00C9CD- RGB value is (0,201,205) mainly blue
-        #E6F4F1- RGB value is (230,244,241) Mainly green
-        #FF8749-RGB value is (255,135,73), mainly red.
+        *#008080-teal, RGB value is (0,128,128) blue green
+        *#00C9CD- RGB value is (0,201,205) mainly blue
+        *#E6F4F1- RGB value is (230,244,241) Mainly green
+        *#FF8749-RGB value is (255,135,73), mainly red.
 
         However, we opted to adjust the colours to complement the overall layout and feel of the site and used the following colours instead: 
 
-        #008080- solid teal
-        #00C9CD- light blue green
-        #dde9e6-pale blue green
-        #ff8649- pale orange
-        #FF8749-solid orange.
-        
+        *#008080- solid teal
+        *#00C9CD- light blue green
+        *#dde9e6-pale blue green
+        *#ff8649- pale orange
+                
     -   #### Typography
   
         The fonts used are [Poppins](https://fonts.google.com/specimen/Poppins?category=Sans+Serif&preview.text=MY%20MUSIC%20l%20MY%20VIDEO%20l%20MY%20PHOTOS&preview.text_type=custom&preview.size=29&sort=popularity&preview.layout=row#standard-styles) for headings and quotes and [Roboto](https://fonts.google.com/specimen/Roboto?category=Sans+Serif&preview.text=MY%20MUSIC%20l%20MY%20VIDEO%20l%20MY%20PHOTOS&preview.text_type=custom&preview.size=29&sort=popularity&preview.layout=row&query=robot) for all written content with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
 
-    Poppins and Roboto are clean fonts used frequently in programming, so it is both attractive and appropriate.
+        Poppins and Roboto are clean fonts used frequently in programming, so it is both attractive and appropriate.
+
+        The colours, which provide contrast to the background, are as follow:
+
+        *#008080- solid teal
+        *#E6F4F1- light teal
+        *#FF8749- solid orange
+        *#ffffff- white
 
     -   #### Imagery
         
@@ -93,10 +99,19 @@ The target audience for this site is anyone who is interested in gospel music re
         
         Users has the option to click the play button of the audio and video element should they want to view the video.
 
-*   ### Wireframes
+-   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+        #### Desktop
+        -[Home](https://github.com/michaelangelopineda/milestones1-singer-ritajessa/blob/master/assets/wireframes/desktop-home.png)
+        -[Bio](https://github.com/michaelangelopineda/milestones1-singer-ritajessa/blob/master/assets/wireframes/desktop-bio.png)
+        -[Contact](https://github.com/michaelangelopineda/milestones1-singer-ritajessa/blob/master/assets/wireframes/desktop-contact.png)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+        #### Tablet
+        -[Home](https://github.com/michaelangelopineda/milestones1-singer-ritajessa/blob/master/assets/wireframes/tablet-home.png)
+        -[Bio](https://github.com/michaelangelopineda/milestones1-singer-ritajessa/blob/master/assets/wireframes/tablet-bio.png)
+        -[Contact](https://github.com/michaelangelopineda/milestones1-singer-ritajessa/blob/master/assets/wireframes/tablet-contact.png)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+        #### Mobile
+        -[Home](https://github.com/michaelangelopineda/milestones1-singer-ritajessa/blob/master/assets/wireframes/mobile-home.png)
+        -[Bio](https://github.com/michaelangelopineda/milestones1-singer-ritajessa/blob/master/assets/wireframes/mobile-bio.png)
+        -[Contact](https://github.com/michaelangelopineda/milestones1-singer-ritajessa/blob/master/assets/wireframes/mobile-contact.png)
