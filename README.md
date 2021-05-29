@@ -125,45 +125,70 @@ The target audience for this site is anyone who is interested in gospel music re
     -   [Bio](https://github.com/michaelangelopineda/milestones1-singer-ritajessa/blob/master/assets/wireframes/mobile-bio.png)
     -   [Contact](https://github.com/michaelangelopineda/milestones1-singer-ritajessa/blob/master/assets/wireframes/mobile-contact.png)
 
--   ### 4. Features
+- ## B. Features
 
-    #### Across all Pages
+- ### Across all Pages
 
     -   The site has a responsive design on all devices. 
 
-    ##### Header
+- #### Header
 
     -   The header is fixed at the top. This is accomplished using bootstrap’s sticky-top class.
     -   The artist’s name is placed on the top left corner of the page. The name shrinks on mobile device to avoid overcrowding of the area and give a breathing space.
     -   The navigation bar’s links are visible and turns white when hovered over to give feedback to user.  On tablet and mobile view, the links will collapse to a toggle button for better user experience. An opaque overlay was added to the collapsed menu to give give distinction to its content against the header and collapses back to a toggle button once user clicked the preferred page.
 
-    #### Footer
+- ### Footer
 
     -   The footer sits after the content of the last section at the bottom of all pages , and includes a simple modal with the user’s email address and a subscribe button for newsletter for user's to get latest updates about the artist
     -   It also contains icons for the artist’s social media links for fans to see their social media following. Artist's social media links are not yet linked but the icons open to a new window when clicked. 
     -   The footer will collapse into two sections in mobile view- modal atop social's link and will sit next to each other on tablet view.
 
-    #### Home Page
-    
+- ### Home Page
+
     -   The hero image is responsive to all devices.
     -   The Home page has a section for the artist’s album and tracks, on which user can play and listen to them if they wish to Also the title of the song becomes bold when hovered on.
     -   It also contains the section of My New Release, where the artist’s most recent music video can be found. The users can have the option to click the play button if they want to watch clip to minimise distractions when viewing the page.
     -   The Upcoming Events section has an inherit effect from bootstrap on which when an event is hovered on, the entire row is highlighted.
 
-    #### Bio Page
+- ### Bio Page
 
     -   This page displays the artist’s several photos using carousel effect which will allow users to view the artist’s images in a more fun way that will keep then engaged as it is interactive.
 
-    #### Contact Page
+- ### Contact Page
 
     -   This page contains a modal for inquiries and bookings so that users can get in touch with the artist management. It was designed simple and very straightforward.
 
--    ### 5. Future Features
+- ## C. Future Features
 
-    -   I would like to add a feature to the upcoming events on which user can buy tickets through the website.
-    -   I would like to add a merchandise page on which user can buy memorabilia and album.
-    -  	I would like my “Subscribe to my Newsletter” and “For Booking/ Inquiries” modal to be fully functional as it requires Backend Developement.
-    -   I would like to improve the music playlist using Javascript as it very dull and unenticing.
-    -  	I would like to add more photos, videos and music content in the future and have a dedicated Page for each.
-    -	I would like amend the design and layout depending on the reception and feedback of users.
+    -   I would like to add a feature to the upcoming events on which user can buy tickets through the website.   
+    -   I would like to add a merchandise page on which user can buy memorabilia and album.   
+    -   I would like my “Subscribe to my Newsletter” and “For Booking/ Inquiries” modal to be fully functional as it requires Backend Developement.   
+    -   I would like to improve the music playlist using Javascript as it very dull and unenticing.   
+    -   I would like to add more photos, videos and music content in the future and have a dedicated Page for each.   
+    -   I would like amend the design and layout depending on the reception and feedback of users.   
 
+- ## D. Technologies Used
+
+    - ### 1. Languages Used
+
+        -   [HTML5](https://en.wikipedia.org/wiki/HTML5)  
+        -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)  
+
+    - ### 2. Frameworks, Libraries & Programs Used
+
+    1. [Bootstrap:](https://getbootstrap.com/)
+        - Bootstrap was used to assist with the responsiveness and styling of the website.
+    1. [Google Fonts:](https://fonts.google.com/)
+        - Google fonts were used to import the **Poppins** and **Roboto** font into the style.css file which is used on all pages throughout the project.
+    1. [Font Awesome:](https://fontawesome.com/)
+        - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    1. [jQuery:](https://jquery.com/)
+        - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+    1. [Git:](https://git-scm.com/)
+        - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    1. [GitHub:](https://github.com/)
+        - GitHub is used to store the projects code after being pushed from Git.
+    1. [Adobe Spark:](https://spark.adobe.com/sp/design/post/urn:aaid:sc:AP:fdef19ec-0d82-4ef5-9522-01c05cf49f31?_branch_match_id=922094833261166892)
+        - Photoshop was used to create the logo, resizing images and editing photos for the website.
+    1. [Balsamiq:](https://balsamiq.com/)
+        - Balsamiq was used to create the [wireframes](https://github.com/michaelangelopineda/milestones1-singer-ritajessa/tree/master/assets/wireframes) during the design process.
