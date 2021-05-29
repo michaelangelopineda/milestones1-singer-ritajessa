@@ -8,7 +8,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
- }
+}
 
 
 /*--------------------------------------------------------------------------- Color*/
@@ -202,6 +202,7 @@ footer .btn {
 .socials {
     text-align: center
 }
+
 /*--------------------------------------------------------------------------- Hero-image*/
 
 .hero-image {
@@ -211,7 +212,7 @@ footer .btn {
     background-repeat: no-repeat;
     background-size: cover;
 }
-   
+
 
 /*--------------------------------------------------------------------------- Music*/
 
@@ -224,7 +225,7 @@ img {
     margin-right: auto;
     padding: 10px 0;
     object-fit: cover;
-    object-position: 100% 200% ;
+    object-position: 100% 200%;
 
 
 
@@ -302,9 +303,21 @@ form .btn {
 /*--------------------------------------------------------------------------- media queries*/
 /*--------------------------------------------------------------------------- Mobile media queries*/
 
+@media only screen and (max-width: 1024px) {
+
+
+  
+}
+
+
 @media only screen and (max-width: 992px) {
     .navbar-collapse {
         background-color: rgb(0 0 0 / 6%);
+
+    }
+
+    img {
+        display: none;
 
     }
 }
@@ -313,7 +326,7 @@ form .btn {
 @media only screen and (max-width: 768px) {
     .navbar-collapse {
         background-color: rgb(0 0 0 / 6%);
-        
+
 
     }
 
@@ -326,7 +339,7 @@ form .btn {
     }
 
     img {
-        max-width: 100%;
+        display: none;
 
     }
 }
@@ -340,16 +353,18 @@ form .btn {
 
     .navbar-collapse {
         background-color: rgb(0 0 0 / 6%);
-    
+
 
     }
 
     .hero-image {
         display: none;
     }
-    
+
     img {
         max-width: 80%;
+        display: block;
+    
 
     }
 
@@ -371,7 +386,7 @@ form .btn {
 
     .navbar-collapse {
         background-color: rgb(0 0 0 / 6%);
-    
+
 
     }
 
@@ -383,6 +398,7 @@ form .btn {
         max-width: 80%;
 
     }
+
     audio {
         width: 10em;
     }
