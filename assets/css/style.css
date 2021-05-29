@@ -86,7 +86,7 @@ h6 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     text-shadow: 2px 2px 4px #0000003a;
-    color: #008080;
+    color: #006363;
 }
 
 .light-font-color {
@@ -130,7 +130,7 @@ header {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #008080;
+    color: #006363;
 }
 
 .navbar-nav .nav-link {
@@ -265,6 +265,7 @@ table {
 
 /*--------------------------------------------------------------------------- BIO-photo*/
 
+
 /*--------------------------------------------------------------------------- BIO-biography*/
 
 
@@ -301,6 +302,13 @@ form .btn {
 /*--------------------------------------------------------------------------- media queries*/
 /*--------------------------------------------------------------------------- Mobile media queries*/
 
+@media only screen and (max-width: 992px) {
+    .navbar-collapse {
+        background-color: rgb(0 0 0 / 6%);
+
+    }
+}
+
 
 @media only screen and (max-width: 768px) {
     .navbar-collapse {
@@ -332,8 +340,12 @@ form .btn {
 
     .navbar-collapse {
         background-color: rgb(0 0 0 / 6%);
-        ;
+    
 
+    }
+
+    .hero-image {
+        display: none;
     }
     
     img {
@@ -359,8 +371,12 @@ form .btn {
 
     .navbar-collapse {
         background-color: rgb(0 0 0 / 6%);
-        ;
+    
 
+    }
+
+    .hero-image {
+        display: none;
     }
 
     img {

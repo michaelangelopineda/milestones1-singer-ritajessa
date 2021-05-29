@@ -76,7 +76,7 @@ The target audience for this site is anyone who is interested in gospel music re
 
         The font colours, which provide contrast to the background, are as follow:
 
-           -  #008080- solid teal   
+           -  #008080- solid teal **changed to #006363 for better visibility after Lighthouse Testing **   
            -  #E6F4F1- light teal  
            -  #FF8749- solid orange  
            -  #ffffff- white   
@@ -91,7 +91,7 @@ The target audience for this site is anyone who is interested in gospel music re
         
         The images used in the site are provided by the artist and her photographer. 
         
-        The background-image, which is a white-gray marble tile, was taken from [Pexels](https://www.pexels.com/) and gives a simple and fresh look together with the adjusted background-colors of each sections. 
+        The background-image, which is a white-gray marble tile, was taken from [Pexels](https://www.pexels.com/photo/marble-surface-2341290/) and gives a simple and fresh look together with the adjusted background-colors of each sections. 
         
         The hero-image was edited in [Adobe Spark](https://spark.adobe.com/sp/design/post/urn:aaid:sc:AP:fdef19ec-0d82-4ef5-9522-01c05cf49f31?_branch_match_id=922094833261166892) and was designed to give pique the interest of the viewers and catch their attention with its very simple yet effective design.
 
