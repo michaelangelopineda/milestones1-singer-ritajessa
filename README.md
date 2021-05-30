@@ -259,9 +259,28 @@ Please click [link in Github](https://docs.github.com/en/github/creating-cloning
 - ## G. Credits
 
 ### Code
+- The background image code came from this post in [stackoverflow](https://stackoverflow.com/questions/61450202/div-background-image-isnt-showing).  
+- The text shadow code was sourced form [css-tricks](https://css-tricks.com/almanac/properties/t/text-shadow/ for text shadow) so as the the [pseudo class code](https://css-tricks.com/remember-selectors-with-love-and-hate/) for the navlinks and the [object-fit and object-position code](https://css-tricks.com/on-object-fit-and-object-position) for proper aligntment of a photo.  
+- The box shadow code was from [W3schools](https://www.w3schools.com/css/css3_shadows_box.asp).  
+- The code for video positioning obtained from [stackoverflow](https://stackoverflow.com/questions/34626069/how-do-i-center-an-html5-video-horizontally-and-vertically-in-a-bare-bones-html) as well as the [responsive audio width](https://stackoverflow.com/questions/5635365/html-5-audio-tag-width)  
+- The text-area place holder code was from [MOzilla](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder).  
 
-### Content
+### References
+
+- I used the following milestones project as reference for mine.
+
+1. Ruairidh MacArthur's [Seastainability](https://github.com/roomacarthur/seastainability)
+2. Dori Manolova's [AvaLanche](https://github.com/Dori78/AvaLanche)
+3. Katja Schatte's [gbrw](https://github.com/katjacodes/gbrw)
+4. Suzybee1987's [ms1-ali-shiatsu](https://github.com/suzybee1987/ms1-ali-shiatsu)
+
+- I also utilised Code Institutes's [Sample README](https://github.com/Code-Institute-Solutions/SampleREADME), [ReadMe template](https://github.com/Code-Institute-Solutions/readme-template), and videos and [Github's Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+
 
 ### Media
 
 ### Acknowledgement
+
+- My Mentor Rohit for continuous helpful feedback.
+
+- Tutor support and Student Care at Code Institute for their support.
