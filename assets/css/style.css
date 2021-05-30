@@ -3,7 +3,7 @@
 .bg-image {
     height: 100vh;
 
-    background: url('/assets/images/bg-img.jpg') no-repeat top left fixed;
+    background: url("../images/bg-img.jpg") no-repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -205,7 +205,7 @@ footer .btn {
 .hero-image {
     max-width: 100%;
     height: 100vh;
-    background-image: url('/assets/images/hero-image.png');
+    background-image: url("../images/hero-image.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -320,11 +320,11 @@ form .btn {
     .hero-image {
         max-width: 100%;
         height: 100vh;
-        background-image: url('/assets/images/hero-image-no-logo.png');
+        background-image: url("../images/hero-image-no-logo.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
-
+ 
     img {
         display: none;
     }
