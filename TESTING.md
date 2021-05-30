@@ -1,4 +1,16 @@
 # Testing Section
+## A. Code Validators
+
+### a. HTML Validation
+### b. CSS Validation 
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+    
 
 ## A. Testing User Stories from User Experience Section
 
@@ -48,7 +60,7 @@
     -    **9.	As an artist’s fan, I want to buy merchandise, limited memorabilia, album so that I can add it into my collection.**
         -Currently this user story hasn’t been added to the features and content of the website. This will however be added in the future together with the other planned improvements for the site.  
 
-    -   #### b. Potential Fan Visitor Goals
+    -   ### b. Potential Fan Visitor Goals
 
     -    **1.	As potential fan, I want to a straightforward layout of the site, so that it will be very easy to navigate it.**
         -Upon entering the site, the user will immediately be greeted with a typical site layout wherein the name of the site is displayed on the left side and the navigation links is at the right on which they can click to go to the desire page.  
@@ -64,7 +76,7 @@
         -There is a dedicated contact page in the site wherein an immediate contact number for the music production handling the artist is present. The user can ring the number should they have immediate concerns.
 
 
-    -   #### c. Site Owner Goals
+    -   ### c. Site Owner Goals
 
     -    **1.	As the artist, I want to create a website so that I can increase my fan base, showcase my talent and establish an online presence.**
         -The website was created containing media on which the artist’s songs and video are displayed and can be watched and listen to.  
@@ -89,11 +101,10 @@
         -The layout was designed according to user stories from fans and general music lovers. It provides a simple and intuitive website that users can use with ease and confidence. By doing so, the website creator hopes to increase the traffic in the site thereby increasing the number of users revisiting the site.  
 
 
-# # Chrome dev tool
 
-# HTML Validation
-# CSS Validation
 
+
+## B. Chrome dev tool
 # LIght house
  desktop, upon testing, images and videos changed to compressed adjusted font color
  media queries to hide some elemenets and improve the progress main bg img was compressed as well
