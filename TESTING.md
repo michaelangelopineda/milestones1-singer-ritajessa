@@ -1,9 +1,14 @@
 # Testing Section
 ## A. Code Validators
 
-### a. HTML Validation
-### b. CSS Validation 
-<p>
+### a. (HTML Validation)[https://validator.w3.org/#validate_by_input]  
+
+- [index.html](docs/html-validation-img/html-validation-index.png)
+- [bio.html](docs/html-validation-img/html-validation-bio.png)
+- [contact.html](docs/html-validation-img/html-validation-contact.png)
+### b. CSS Validation  
+
+- <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
             src="http://jigsaw.w3.org/css-validator/images/vcss"
@@ -105,7 +110,7 @@
 
 
 ## B. Chrome dev tool
-# LIght house
+## Light house
  desktop, upon testing, images and videos changed to compressed adjusted font color
  media queries to hide some elemenets and improve the progress main bg img was compressed as well
 
