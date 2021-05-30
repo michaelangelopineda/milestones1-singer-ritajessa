@@ -16,7 +16,6 @@
     </a>
 </p>
     
-
 ## A. Testing User Stories from User Experience Section
 
    -   ### a. Artist's Fan Visitor Goals
@@ -72,14 +71,11 @@
         -All sections of a page are clearly separated and contains header to determine what is the content of that section.
         The footer sits at the bottom containing the social links and Subscription to Newsletter form.  
 
-
-
     -    **2.	As potential fan, I want to view her site to be simple so that I can browse it with ease.**
         -The layout of the site was designed for the convenience of the user so it can be read from top to bottom, left to right.
 
     -    **3.	As potential fan, I want to be able to contact someone immediately if I need to so that it will save me the hassle of waiting for a long response.**
         -There is a dedicated contact page in the site wherein an immediate contact number for the music production handling the artist is present. The user can ring the number should they have immediate concerns.
-
 
     -   ### c. Site Owner Goals
 
@@ -105,18 +101,28 @@
     -    **7.	As music production company, I want to increase the number of people who will be revisiting the site so that to maintain artist’s social currency.**
         -The layout was designed according to user stories from fans and general music lovers. It provides a simple and intuitive website that users can use with ease and confidence. By doing so, the website creator hopes to increase the traffic in the site thereby increasing the number of users revisiting the site.  
 
-
-
-
-
 ## B. Chrome dev tool
-## Light house
+
+## Lighthouse
+    
+- ### Home Page
+    The issue I had upon testing the hope page was initially the Progress report was below 50%. I had to changed all the images for better loading time. After same, report was 70% only. In order to deal with this, I had to hide images using media queries and added <meta name="description" content="...">. Also, i added <width="..." height=".."> attribute to images. After doing same, report became >90%.
+
+    -[**Desktop**](/workspace/milestones1-singer-ritajessa/docs/lighthouse-testing-img/desktop-index-lighthouse.png)
+    -[**Mobile**](/workspace/milestones1-singer-ritajessa/docs/lighthouse-testing-img/desktop-index-lighthouse.png)
+
  desktop, upon testing, images and videos changed to compressed adjusted font color
  media queries to hide some elemenets and improve the progress main bg img was compressed as well
+- ### Bio Page
 
+    The Bio Page testing initially was below 80% for Progress. Treated same image elements similar to the Home Page multiple times and ajusted the font color of the navigation for better contrast and improves to >90% after same.
 
- desktop contact rel=noopener to anchor links in the social media added [meta name=description content added]
-
+    -[**Desktop**](/workspace/milestones1-singer-ritajessa/docs/lighthouse-testing-img/desktop-bio-lighthouse.png)
+    -[**Mobile**](/workspace/milestones1-singer-ritajessa/docs/lighthouse-testing-img/desktop-bio-lighthouse.png)
+ 
   desktop bio okay.. adjusted font color adjust pcitures to smaller kb, progress improves to 87%
+- ### Contact Page
+    The contact page was treated different Added <rel="noopener"> as per recommendation of Lighthouse in the <a> links in the social media. I also added <meta name="description" content="..."> to the <head> and Progress and SEO improved to >90% 
 
-  desktop mobie encountering issues...progress 70% only
+    -[**Desktop**](/workspace/milestones1-singer-ritajessa/docs/lighthouse-testing-img/desktop-contact-lighthouse.png)
+    -[**Mobile**](/workspace/milestones1-singer-ritajessa/docs/lighthouse-testing-img/desktop-contact-lighthouse.png)
