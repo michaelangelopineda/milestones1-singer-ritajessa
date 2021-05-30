@@ -253,3 +253,15 @@ The target audience for this site is anyone who is interested in gospel music re
 1. Change the current working directory to the location where you want the cloned directory.
 1. Type `git clone`, and then *paste* the URL or the **SSH address** you copied earlier.
 1. Press **Enter** to create your local clone.
+
+Please click [link in Github](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) for more information.
+
+- ## G. Credits
+
+### Code
+
+### Content
+
+### Media
+
+### Acknowledgement
