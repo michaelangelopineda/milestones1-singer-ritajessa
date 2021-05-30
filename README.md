@@ -4,7 +4,7 @@
 
 ### HTML/CSS Essentials - User Centric, Static Front-End Website
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://michaelangelopineda.github.io/milestones1-singer-ritajessa/index.html)
 
 ## Purpose
 
@@ -14,8 +14,7 @@ The main goal of this site is primarily for the artist’s fan to enjoy differen
 
 The target audience for this site is anyone who is interested in gospel music regardless of age, sex or background, or essentially anyone who loves music in general.
 
-
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>----> mock up
+<h2 align="center"><img src="docs/mock-up-img/mock-up.png"></h2>
 
 ## A. User Experience (UX)
 
@@ -71,12 +70,13 @@ The target audience for this site is anyone who is interested in gospel music re
 
            -  #008080- solid teal  
            -  #00C9CD- light blue green  
-           -  #dde9e6-pale blue green  
-           -  #ff8649- pale orange  
+           -  #dde9e6-pale blue green **was changed to #dde9e670 to have a transparent effect against the bg-image**   
+           -  #ff8649- pale orange ****was changed to #ff8649a1 to have a transparent effect against the bg-image**    
+           -  **#006363- solid dark teal was used to provide contrast against the navbar bg-color**  
 
         The font colours, which provide contrast to the background, are as follow:
 
-           -  #008080- solid teal **changed to #006363 for better visibility after Lighthouse Testing **   
+           -  #008080- solid teal **changed to #006363 for better visibility after Lighthouse Testing**   
            -  #E6F4F1- light teal  
            -  #FF8749- solid orange  
            -  #ffffff- white   
@@ -192,6 +192,10 @@ The target audience for this site is anyone who is interested in gospel music re
         - Photoshop was used to create the logo, resizing images and editing photos for the website.
     1. [Balsamiq:](https://balsamiq.com/)
         - Balsamiq was used to create the [wireframes](https://github.com/michaelangelopineda/milestones1-singer-ritajessa/tree/master/assets/wireframes) during the design process.
+    1. [Tinyjpg:](https://tinyjpg.com/):
+        - Tinyjpg was used to compress the images
+    1. [Freeconvert](https://www.freeconvert.com/video-compressor):
+        - Freeconver was used to compress the video used.
 
 - ## D. Testing
 
@@ -276,8 +280,9 @@ Please click [link in Github](https://docs.github.com/en/github/creating-cloning
 
 - I also utilised Code Institutes's [Sample README](https://github.com/Code-Institute-Solutions/SampleREADME), [ReadMe template](https://github.com/Code-Institute-Solutions/readme-template), and videos and [Github's Mastering Markdown](https://guides.github.com/features/mastering-markdown/)  
 
-
 ### Media
+
+- All media contents are from the artist and Tipid Productions.
 
 ### Acknowledgement
 
