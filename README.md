@@ -224,7 +224,7 @@ The target audience for this site is anyone who is interested in gospel music re
 
 ### Github Pages
 
-    The project was deployed in Github following these step:
+-    The project was deployed in Github following these step:
 
 1. Log into [GitHub](https://github.com/).  
 1. Click on the account avatar at the top right corner and click **Your repositories** from the menu.  
@@ -237,7 +237,7 @@ The target audience for this site is anyone who is interested in gospel music re
 
 ### Forking the Github Repository
 
-    By forking, we can make a copy of the repository and make changes without affecting the original project. This can be done by:  
+-    By forking, we can make a copy of the repository and make changes without affecting the original project. This can be done by:  
 
 1. Log in to GitHub and locate the GitHub Repository.  
 1. CLick on the fork button under your avatar image after locating the repository you wish to copy.  
@@ -245,7 +245,7 @@ The target audience for this site is anyone who is interested in gospel music re
 
 ### Cloning the Github Repository
 
-    You can clone your repository to create a local copy on your computer and sync between the two locations as per [Github documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository). You can do this by:  
+-    You can clone your repository to create a local copy on your computer and sync between the two locations as per [Github documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository). You can do this by:  
 
 1. Log in to GitHub and locate the GitHub Repository
 1. Under the repository name, click the **Code** then copy **SSH address**
