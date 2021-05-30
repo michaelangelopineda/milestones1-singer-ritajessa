@@ -267,14 +267,14 @@ Please click [link in Github](https://docs.github.com/en/github/creating-cloning
 
 ### References
 
-- I used the following milestones project as reference for mine.
+- I used the following milestones project as reference for mine.  
 
-1. Ruairidh MacArthur's [Seastainability](https://github.com/roomacarthur/seastainability)
-2. Dori Manolova's [AvaLanche](https://github.com/Dori78/AvaLanche)
-3. Katja Schatte's [gbrw](https://github.com/katjacodes/gbrw)
-4. Suzybee1987's [ms1-ali-shiatsu](https://github.com/suzybee1987/ms1-ali-shiatsu)
+1. Ruairidh MacArthur's [Seastainability](https://github.com/roomacarthur/seastainability)  
+2. Dori Manolova's [AvaLanche](https://github.com/Dori78/AvaLanche)  
+3. Katja Schatte's [gbrw](https://github.com/katjacodes/gbrw)  
+4. Suzybee1987's [ms1-ali-shiatsu](https://github.com/suzybee1987/ms1-ali-shiatsu)  
 
-- I also utilised Code Institutes's [Sample README](https://github.com/Code-Institute-Solutions/SampleREADME), [ReadMe template](https://github.com/Code-Institute-Solutions/readme-template), and videos and [Github's Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+- I also utilised Code Institutes's [Sample README](https://github.com/Code-Institute-Solutions/SampleREADME), [ReadMe template](https://github.com/Code-Institute-Solutions/readme-template), and videos and [Github's Mastering Markdown](https://guides.github.com/features/mastering-markdown/)  
 
 
 ### Media
@@ -284,3 +284,5 @@ Please click [link in Github](https://docs.github.com/en/github/creating-cloning
 - My Mentor Rohit for continuous helpful feedback.
 
 - Tutor support and Student Care at Code Institute for their support.
+
+- Rita Jessa and Tipid Productions for entrusting me this website.
