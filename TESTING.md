@@ -126,3 +126,10 @@
 
     -[**Desktop**](/workspace/milestones1-singer-ritajessa/docs/lighthouse-testing-img/desktop-contact-lighthouse.png)
     -[**Mobile**](/workspace/milestones1-singer-ritajessa/docs/lighthouse-testing-img/desktop-contact-lighthouse.png)
+
+## C. Further Testing
+
+- The Website was tested on Google Chrome, Microsoft Edge and Mozilla Firefox browsers. 
+- The websites each page was viewed and tested in Chrome Dev tool using different breakpoints emmanating the width and size of different desktop, laptop, and mobile devices. Bug in the navbar was seen at 992px width wherein the background color is different. This was fixed using media query.
+- A large amount of testing was done to ensure that all pages were linking correctly.
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
