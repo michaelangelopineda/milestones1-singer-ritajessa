@@ -1,8 +1,10 @@
+/*Import from Google Font*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
 
+/*Code obtained from https://stackoverflow.com/questions/61450202/div-background-image-isnt-showing*/
+/*Code was tweeked so that the content will flow from top to bottom*/
 .bg-image {
     height: 100vh;
-
     background: url("../images/bg-img.jpg") no-repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -74,11 +76,13 @@ h6 {
     text-transform: uppercase;
 }
 
+/*Code for the Rita Jessa in the navbar*/
 .gen-heading {
     letter-spacing: 10px;
     font-weight: 700;
 }
 
+/*code obtained https://css-tricks.com/almanac/properties/t/text-shadow/ for text shadow*/
 #namelogo {
     font-size: 2em;
     letter-spacing: 10px;
@@ -92,6 +96,7 @@ h6 {
     color: #E6F4F1;
 }
 
+/*code form the big quotation in the Bio Page*/
 .quotes-text1 {
     color: #FF8749;
     font-family: "Roboto", sans-serif;
@@ -136,6 +141,7 @@ header {
     text-align: center;
 }
 
+/*pseudoclass code obtained in https://css-tricks.com/remember-selectors-with-love-and-hate*/
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:active,
 .navbar-light .navbar-nav .nav-link:active:focus {
@@ -212,6 +218,7 @@ footer .btn {
 
 /*--------------------------------------------------------------------------- Music*/
 
+/*object-fit and object-position for proper aligntment obtained from https://css-tricks.com/on-object-fit-and-object-position/*/
 img {
     max-width: 100%;
     height: auto;
@@ -237,12 +244,14 @@ img {
 
 /*--------------------------------------------------------------------------- Video Release*/
 
+/* Code for video positioning obtained from https://stackoverflow.com/questions/34626069/how-do-i-center-an-html5-video-horizontally-and-vertically-in-a-bare-bones-html*/
 video source {
     position: absolute;
     top: 30%;
     left: 30%;
 }
 
+/*code for box shadow obtained in https://www.w3schools.com/css/css3_shadows_box.asp*/
 video {
     max-width: 80%;
     height: auto;
@@ -324,7 +333,7 @@ form .btn {
         background-repeat: no-repeat;
         background-size: cover;
     }
- 
+
     img {
         display: none;
     }
@@ -350,6 +359,7 @@ form .btn {
         display: block;
     }
 
+    /*responsive audio width obtained from https://stackoverflow.com/questions/5635365/html-5-audio-tag-width*/
     audio {
         width: 10em;
     }
@@ -400,7 +410,7 @@ form .btn {
         width: auto;
     }
 
-    /*https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder*/
+    /*code obtained in https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder*/
     textarea,
     input::placeholder {
         text-align: center;
