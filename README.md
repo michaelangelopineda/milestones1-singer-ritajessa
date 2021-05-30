@@ -219,3 +219,37 @@ The target audience for this site is anyone who is interested in gospel music re
 
 - At 992px width in Chrome Dev Tool, the [background color](docs/issues-img/navbar-bg-color-issue.png) appearing in navbar is similar to the color of the navigation menu on toggle mode. *Fixed*  
     - It was fixed using media query `@media only screen and (max-width: 991.98px)`  
+
+- ## F. Deployment
+
+### Github Pages
+
+    The project was deployed in Github following these step:
+
+1. Log into [GitHub](https://github.com/).  
+1. Click on the account avatar at the top right corner and click **Your repositories** from the menu.  
+1. From the list of repositories, select [milestones1-singer-ritajessa](https://github.com/michaelangelopineda/milestones1-singer-ritajessa).  
+1. From the menu bar at the top of the page, click **Settings**.  
+1. In the menu bar on the left side of the screen, click **Page**.  
+1. In the **Source** section, click the dropdown menu **None** and select **Master Branch**  and click **Save**.  
+1. Then a **link** of the deployed project above the **Source** section will appear.  
+1. Click the **link** and you will be directed to deployed page.  
+
+### Forking the Github Repository
+
+    By forking, we can make a copy of the repository and make changes without affecting the original project. This can be done by:  
+
+1. Log in to GitHub and locate the GitHub Repository.  
+1. CLick on the fork button under your avatar image after locating the repository you wish to copy.  
+1. You should now have a duplicate of the original repository in your GitHub list of repositories.  
+
+### Cloning the Github Repository
+
+    You can clone your repository to create a local copy on your computer and sync between the two locations as per [Github documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository). You can do this by:  
+
+1. Log in to GitHub and locate the GitHub Repository
+1. Under the repository name, click the **Code** then copy **SSH address**
+1. Open Gitbash
+1. Change the current working directory to the location where you want the cloned directory.
+1. Type `git clone`, and then *paste* the URL or the **SSH address** you copied earlier.
+1. Press **Enter** to create your local clone.
