@@ -1,16 +1,16 @@
 /*Import from Google Font*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
 
-/*code for unwanted negative space to right, horizontalscroll*/
-html,body {
-    margin:0;
-    padding:0;
-    overflow-x:hidden;
+/*Code for unwanted negative space to right, horizontalscroll*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
     width: 100%
-    }
+}
 
-/*Code obtained from https://stackoverflow.com/questions/61450202/div-background-image-isnt-showing*/
-/*Code was tweeked so that the content will flow from top to bottom*/
+/*For arrangement of section content upon adding bg-image*/
 .bg-image {
     height: 100vh;
     background: url("../images/bg-img.jpg") no-repeat top left fixed;
@@ -90,7 +90,7 @@ h6 {
     font-weight: 700;
 }
 
-/*code obtained https://css-tricks.com/almanac/properties/t/text-shadow/ for text shadow*/
+/*For shadow effect on the logo*/
 #namelogo {
     font-size: 2em;
     letter-spacing: 10px;
@@ -104,7 +104,7 @@ h6 {
     color: #E6F4F1;
 }
 
-/*code form the big quotation in the Bio Page*/
+
 .quotes-text1 {
     color: #FF8749;
     font-family: "Roboto", sans-serif;
@@ -184,6 +184,7 @@ footer {
     font-family: "Poppins", sans-serif;
 }
 
+
 .input-group>.form-control,
 .input-group>.form-select {
     width: 30px;
@@ -229,7 +230,7 @@ footer .btn {
 /*--------------------------------------------------------------------------- Music*/
 
 
-/*object-fit and object-position for proper aligntment obtained from https://css-tricks.com/on-object-fit-and-object-position/*/
+/*To responsively align album cover in the center*/
 img {
     max-width: 100%;
     height: auto;
@@ -255,14 +256,14 @@ img {
 
 /*--------------------------------------------------------------------------- Video Release*/
 
-/* Code for video positioning obtained from https://stackoverflow.com/questions/34626069/how-do-i-center-an-html5-video-horizontally-and-vertically-in-a-bare-bones-html*/
+/*To responsively center video in the layout*/
 video source {
     position: absolute;
     top: 30%;
     left: 30%;
 }
 
-/*code for box shadow obtained in https://www.w3schools.com/css/css3_shadows_box.asp*/
+/*For shadow effect on the video element*/
 video {
     max-width: 80%;
     height: auto;
@@ -302,7 +303,7 @@ form .btn {
     color: #008080;
 }
 
-.center-form {
+.center-form2 {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
@@ -316,7 +317,7 @@ form .btn {
 /*--------------------------------------------------------------------------- media queries*/
 /*--------------------------------------------------------------------------- Mobile media queries*/
 
-
+/*For 992px breakpoint in Chrome Dev Tool*/
 @media only screen and (max-width: 992px) {
 
     img {
@@ -324,6 +325,7 @@ form .btn {
     }
 }
 
+/*For uniformity of navbar collapse background color*/
 @media only screen and (max-width: 991.98px) {
     .navbar-collapse {
         background-color: rgb(0 0 0 / 6%);
@@ -331,6 +333,7 @@ form .btn {
 
 }
 
+/*For 768px breakpoint in Chrome Dev Tool*/
 @media only screen and (max-width: 768px) {
     .navbar-collapse {
         background-color: rgb(0 0 0 / 6%);
@@ -349,6 +352,7 @@ form .btn {
     }
 }
 
+/*For 600px breakpoint in Chrome Dev Tool*/
 @media only screen and (max-width: 600px) {
 
     #namelogo {
@@ -369,13 +373,33 @@ form .btn {
         display: block;
     }
 
- 
+    .padding-pixel-mob {
+        padding: 0 10px 0 10px;
+    }
+
+    .list-inline-item i {
+        letter-spacing: 40px;
+        text-align: center;
+    }
+
+    .socials i {
+        font-size: 16px;
+
+    }
+
+    .socials {
+        margin-left: auto;
+        padding-left: 35px;
+    }
+
     audio {
         width: 10em;
     }
 }
 
-@media only screen and (max-width: 320px) {
+
+/*For Moto G4 compatibility*/
+@media only screen and (max-width: 360px) {
 
     header .navbar {
         width: 100%;
@@ -402,13 +426,19 @@ form .btn {
         width: 10em;
     }
 
-    .socials i {
-        font-size: 20px;
+    .list-inline-item i {
+        letter-spacing: 40px;
         text-align: center;
     }
 
+    .socials i {
+        font-size: 16px;
+
+    }
+
     .socials {
-        margin-left: 20px;
+        margin-left: auto;
+        padding-left: 35px;
     }
 
     .input-group {
@@ -420,7 +450,7 @@ form .btn {
         width: auto;
     }
 
-    /*code obtained in https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder*/
+ /*code for placeholder text alignment in contact.html*/
     textarea,
     input::placeholder {
         text-align: center;
@@ -428,4 +458,69 @@ form .btn {
 
 }
 
+/*For Pixel 2 and Pixel2x compatibility*/
+@media only screen and (max-width: 280px) {
+    header .navbar {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
 
+    }
+
+    #namelogo {
+        width: 80%;
+        font-size: x-large;
+    }
+
+    .navbar-collapse {
+        background-color: rgb(0 0 0 / 6%);
+    }
+
+    .hero-image {
+        display: none;
+    }
+
+    /*heading size for Galaxy Fold*/
+    .gen-heading {
+        font-size: large;
+    }
+
+    img {
+        max-width: 80%;
+    }
+
+    audio {
+        width: 6em;
+    }
+
+    .list-inline-item i {
+        letter-spacing: 30px;
+        text-align: center;
+    }
+
+    .socials i {
+        font-size: 16px;
+
+    }
+
+    .socials {
+        margin-left: auto;
+        padding-left: 35px;
+    }
+
+    .input-group {
+        display: grid;
+    }
+
+    .input-group>.form-control,
+    .input-group>.form-select {
+        width: auto;
+    }
+
+    /*code for placeholder text alignment in contact.html*/
+    textarea,
+    input::placeholder {
+        text-align: center;
+    }
+
+}
