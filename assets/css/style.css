@@ -68,6 +68,14 @@ body .bg-color-photos {
     background-color: #ff8649a1;
 }
 
+.bg-color-successful {
+    background-color: #dde9e670;
+}
+
+.bg-color-successful-img {
+    background-color: #ff8649a1;
+}
+
 /*--------------------------------------------------------------------------- Special paddings, margins, text*/
 h1,
 h2,
@@ -217,6 +225,19 @@ footer .btn {
     text-align: center
 }
 
+/*--------------------------------------------------------------------------- Successful-image*/
+.form-sent-img {
+    max-width: 40%;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+    object-fit: cover;
+    object-position: 100% 200%;
+}
+
 /*--------------------------------------------------------------------------- Hero-image*/
 
 .hero-image {
@@ -320,7 +341,7 @@ form .btn {
 /*For 992px breakpoint in Chrome Dev Tool*/
 @media only screen and (max-width: 992px) {
 
-    img {
+    .album-cover img {
         display: none;
     }
 }
@@ -347,7 +368,7 @@ form .btn {
         background-size: cover;
     }
 
-    img {
+    .album-cover img {
         display: none;
     }
 }
@@ -368,7 +389,7 @@ form .btn {
         display: none;
     }
 
-    img {
+    .album-cover img {
         max-width: 80%;
         display: block;
     }
@@ -418,7 +439,7 @@ form .btn {
         display: none;
     }
 
-    img {
+    .album-cover img {
         max-width: 80%;
     }
 
@@ -450,7 +471,7 @@ form .btn {
         width: auto;
     }
 
- /*code for placeholder text alignment in contact.html*/
+    /*code for placeholder text alignment in contact.html*/
     textarea,
     input::placeholder {
         text-align: center;
@@ -485,7 +506,7 @@ form .btn {
         font-size: large;
     }
 
-    img {
+    .album-cover img {
         max-width: 80%;
     }
 
