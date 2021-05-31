@@ -19,6 +19,7 @@
 
 <body class="bg-image">
 
+    <!--This is the header-->
     <header class="sticky-top">
         <nav class="navbar bg-color-navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand uppercase" href="index.html">
@@ -44,12 +45,13 @@
                     </li>
                 </ul>
             </div>
-
         </nav>
     </header>
 
+    <!--This is the Hero Image-->
     <div class="container-fluid hero-image"></div>
 
+    <!--This is the Music Section-->
     <section class="py-3 container-fluid flex bg-color-music">
         <div class="row">
             <div class="col-md-8 offset-md-2 text-center">
@@ -104,10 +106,11 @@
         </div>
     </section>
 
+    <!--This is the New Release Section-->
     <section class="py-3 bg-color-release">
         <div class="row">
             <div class="col-md-8 offset-md-2 text-center">
-                <h2 class="text-center uppercase gen-heading light-font-color">My New Release</h2>
+                <h2 class="text-center uppercase gen-heading light-font-color padding-pixel-mob">My New Release</h2>
             </div>
             <div class="col-sm-8 offset-sm-2 music-video text-center">
                 <video controls>
@@ -118,6 +121,7 @@
         </div>
     </section>
 
+    <!--This is the Upcoming Events Section-->
     <section class="py-3  bg-color-events">
         <div class="row">
             <div class="col-md-8 offset-md-2 text-center">
@@ -158,17 +162,20 @@
         </div>
     </section>
 
+    <!--This is the Footer-->
     <footer class="bg-color-footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-6">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Email" aria-label="email"
-                            aria-describedby="button-addon2">
-                        <button class="btn bg-color-button btn-outline-secondary" type="button"
-                            id="button-addon2">Subscribe to my
-                            Newsletter!</button>
-                    </div>
+                    <form>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Email" aria-label="email"
+                                aria-describedby="button-addon2" required>
+                            <button class="btn bg-color-button btn-outline-secondary" type="submit"
+                                id="button-addon2">Subscribe to my
+                                Newsletter!<a class="successful-input" href="contact.html"></a></button>
+                        </div>
+                    </form>
                 </div>
                 <div class="col-md-6 col-lg-6 socials">
                     <ul class="list-inline">
