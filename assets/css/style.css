@@ -1,24 +1,33 @@
 /*Import from Google Font*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
 
-/*Code for unwanted negative space to right, horizontalscroll*/
 html,
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    width: 100%
+    width: 100%;
+    background: url("../images/bg-img.jpg") no-repeat top left fixed;
+  
+
 }
 
-/*For arrangement of section content upon adding bg-image*/
-.bg-image {
+body {
     height: 100vh;
-    background: url("../images/bg-img.jpg") no-repeat top left fixed;
+}
+
+
+.bg-height {
+    min-height: 80vh;
+ 
+}
+.bg-image {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
+
 
 /*--------------------------------------------------------------------------- Color*/
 
@@ -190,6 +199,7 @@ footer {
     font-size: 30px;
     color: #008080;
     font-family: "Poppins", sans-serif;
+
 }
 
 
@@ -345,9 +355,15 @@ form .btn {
     max-width: 70%;
 }
 
+.center-urgent-contact {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
 /*--------------------------------------------------------------------------- CONTACT-urgent*/
 .music-production:hover {
-    font-size: 30px;
+    font-weight: bold;
+
 }
 
 /*--------------------------------------------------------------------------- media queries*/
