@@ -312,6 +312,10 @@ table {
 
 /*--------------------------------------------------------------------------- BIO-photo*/
 
+/*Adjust img size in the carousel*/
+.w-100 {
+    width: 80% !important;
+}
 
 /*--------------------------------------------------------------------------- BIO-biography*/
 
@@ -505,6 +509,12 @@ form .btn {
         width: auto;
     }
 
+    .biography-heading h2 {
+        font-size: 8vw;
+    }
+
+
+
     /*code for placeholder text alignment in contact.html*/
     textarea,
     input::placeholder {
@@ -513,7 +523,7 @@ form .btn {
 
 }
 
-/*For Pixel 2 and Pixel2x compatibility*/
+
 @media only screen and (max-width: 280px) {
     header .navbar {
         width: 100%;
@@ -524,7 +534,7 @@ form .btn {
 
     #namelogo {
         width: 80%;
-        font-size: x-large;
+        font-size: x-large !important;
     }
 
     .navbar-collapse {
@@ -570,6 +580,24 @@ form .btn {
     .input-group>.form-control,
     .input-group>.form-select {
         width: auto;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        color: #008080;
+        font-size: large !important;
+
+    }
+
+    .biography .offset-2 {
+        margin-left: 15vw !important;
+
     }
 
     /*code for placeholder text alignment in contact.html*/
