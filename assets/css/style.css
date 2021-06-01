@@ -429,8 +429,8 @@ form .btn {
     .form-sent h2,
     .form-sent h3 {
         font-size: 7vw;
-        letter-spacing: none;
         padding: 0 1em 0 1em;
+        letter-spacing: 5px !important;
     }
 
     audio {
@@ -474,7 +474,7 @@ form .btn {
     .form-sent h2,
     .form-sent h3 {
         font-size: 6vw;
-        letter-spacing: none;
+        letter-spacing: 5px !important;
     }
 
     audio {
