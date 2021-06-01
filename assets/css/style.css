@@ -6,27 +6,20 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    width: 100%;
-    background: url("../images/bg-img.jpg") no-repeat top left fixed;
-  
-
-}
-
-body {
-    height: 100vh;
+    width: 100%
 }
 
 
-.bg-height {
-    min-height: 80vh;
- 
-}
+/*For arrangement of section content upon adding bg-image*/
 .bg-image {
+    height: 100vh;
+    background: url("../images/bg-img.jpg") no-repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
+
 
 
 /*--------------------------------------------------------------------------- Color*/
@@ -360,6 +353,7 @@ form .btn {
     margin: 0 auto;
     max-width: 70%;
 }
+
 /*--------------------------------------------------------------------------- CONTACT-urgent*/
 .music-production:hover {
     font-weight: bold;
@@ -368,6 +362,13 @@ form .btn {
 
 /*--------------------------------------------------------------------------- media queries*/
 /*--------------------------------------------------------------------------- Mobile media queries*/
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+   /*to push sections to the bottom of the page-fix white space*/
+    .pt-5, .py-5 {
+        padding-top: 5rem!important;
+    }
+}
 
 /*For 992px breakpoint in Chrome Dev Tool*/
 @media only screen and (max-width: 992px) {
