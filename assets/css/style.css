@@ -68,11 +68,11 @@ body .bg-color-photos {
     background-color: #ff8649a1;
 }
 
-.bg-color-successful {
+.bg-color-form-sent {
     background-color: #dde9e670;
 }
 
-.bg-color-successful-img {
+.bg-color-form-sent-img {
     background-color: #ff8649a1;
 }
 
@@ -226,8 +226,8 @@ footer .btn {
 }
 
 /*--------------------------------------------------------------------------- Successful-image*/
-.form-sent-img {
-    max-width: 40%;
+.form-sent-img figure img {
+    max-width: 50%;
     height: auto;
     text-align: center;
     display: block;
@@ -236,6 +236,17 @@ footer .btn {
     padding: 10px 0;
     object-fit: cover;
     object-position: 100% 200%;
+}
+
+.shrink img {
+    transition: 1s ease;
+}
+
+.shrink img:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
 }
 
 /*--------------------------------------------------------------------------- Hero-image*/
@@ -413,6 +424,15 @@ form .btn {
         padding-left: 35px;
     }
 
+    /*adjust text size and layout in Pixel*/
+    .form-sent h1,
+    .form-sent h2,
+    .form-sent h3 {
+        font-size: 7vw;
+        letter-spacing: none;
+        padding: 0 1em 0 1em;
+    }
+
     audio {
         width: 10em;
     }
@@ -441,6 +461,20 @@ form .btn {
 
     .album-cover img {
         max-width: 80%;
+    }
+
+    .form-sent {
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+
+    /*adjust text size*/
+    .form-sent h1,
+    .form-sent h2,
+    .form-sent h3 {
+        font-size: 6vw;
+        letter-spacing: none;
     }
 
     audio {
