@@ -78,7 +78,7 @@ body .bg-color-photos {
     background-color: #ff8649a1;
 }
 
-/*--------------------------------------------------------------------------- Special paddings, margins, text*/
+/*Special paddings, margins, text*/
 h1,
 h2,
 h3,
@@ -114,7 +114,6 @@ h6 {
     color: #E6F4F1;
 }
 
-
 .quotes-text1 {
     color: #FF8749;
     font-family: "Roboto", sans-serif;
@@ -127,8 +126,7 @@ h6 {
     padding-top: 10px;
 }
 
-/*--------------------------------------------------------------------------- Header*/
-
+/*Header*/
 header {
     margin: auto 0;
 }
@@ -159,7 +157,6 @@ header {
     text-align: center;
 }
 
-
 /*Hover effect on navbar link*/
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:active,
@@ -179,22 +176,12 @@ span .navbar-toggler-icon {
     border: 2px solid;
 }
 
-/**************************************** border to burger icon
-
-.navbar-light .navbar-toggler-icon {
-    border: 2px solid;
-}
- *****************************************/
-
-/*--------------------------------------------------------------------------- Footer*/
-
+/*Footer*/
 footer {
     font-size: 30px;
     color: #008080;
     font-family: "Poppins", sans-serif;
-
 }
-
 
 .input-group>.form-control,
 .input-group>.form-select {
@@ -228,7 +215,7 @@ footer .btn {
     text-align: center
 }
 
-/*--------------------------------------------------------------------------- Successful-image*/
+/*Effect for form-sent image*/
 .form-sent-img figure img {
     max-width: 50%;
     height: auto;
@@ -252,8 +239,20 @@ footer .btn {
     transition: 1s ease;
 }
 
-/*--------------------------------------------------------------------------- Hero-image*/
+/*Styling for disabled button*/
+.btn-outline-secondary.disabled,
+.btn-outline-secondary:disabled {
+    background-color: #dde9e6;
+    color: #008080;
+    border-color: #dde9e6;
+}
 
+.btn.disabled,
+.btn:disabled {
+    opacity: 1;
+}
+
+/*Hero-image*/
 .hero-image {
     max-width: 100%;
     height: 100vh;
@@ -262,9 +261,7 @@ footer .btn {
     background-size: cover;
 }
 
-/*--------------------------------------------------------------------------- Music*/
-
-
+/*Music*/
 /*To responsively align album cover in the center*/
 img {
     max-width: 100%;
@@ -289,8 +286,7 @@ img {
     font-weight: bold;
 }
 
-/*--------------------------------------------------------------------------- Video Release*/
-
+/*Video Release*/
 /*To responsively center video in the layout*/
 video source {
     position: absolute;
@@ -306,32 +302,19 @@ video {
     margin: 20px;
 }
 
-/*--------------------------------------------------------------------------- Events*/
-
+/*Events*/
 table {
     margin-top: 15px;
     padding-bottom: 20px;
 }
 
-/*--------------------------------------------------------------------------- BIO-photo*/
-
+/*BIO-photo*/
 /*Adjust img size in the carousel*/
 .w-100 {
     width: 80% !important;
 }
 
-/*--------------------------------------------------------------------------- BIO-biography*/
-
-
-/*--------------------------------------------------------------------------- BIO-biography media query*/
-
-/*---@media screen and (max-width:480px) {
-    .biography {
-        text-align: center;
-    }
-}-----------------------------------------------------------------------------------?will revisit the effect-seems not suitable*/
-
-/*--------------------------------------------------------------------------- CONTACT-form*/
+/*CONTACT-form*/
 .text-spacing {
     letter-spacing: 3px;
 }
@@ -354,24 +337,12 @@ form .btn {
     max-width: 70%;
 }
 
-/*--------------------------------------------------------------------------- CONTACT-urgent*/
+/*CONTACT-urgent*/
 .music-production:hover {
     font-weight: bold;
 }
 
-.btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
-    background-color: #dde9e6;
-    color: #008080;
-    border-color: #dde9e6;
-
-}
-
-.btn.disabled, .btn:disabled {
-    opacity: 1;
-}
-/*--------------------------------------------------------------------------- media queries*/
-/*--------------------------------------------------------------------------- Mobile media queries*/
-
+/*media queries*/
 @media only screen and (min-width: 1024px) and (max-width: 2560px) {
 
     /*to push sections to the bottom of the page-fix white space*/
@@ -393,14 +364,10 @@ form .btn {
         margin-left: -50px;
         top: 50%;
     }
-
-
-
 }
 
 /*For 992px breakpoint in Chrome Dev Tool*/
 @media only screen and (max-width: 992px) {
-
     .album-cover img {
         display: none;
     }
@@ -411,7 +378,6 @@ form .btn {
     .navbar-collapse {
         background-color: rgb(0 0 0 / 6%);
     }
-
 }
 
 /*For 768px breakpoint in Chrome Dev Tool*/
@@ -465,7 +431,6 @@ form .btn {
 
     .socials i {
         font-size: 16px;
-
     }
 
     .socials {
@@ -490,7 +455,6 @@ form .btn {
 
 /*For Moto G4 compatibility*/
 @media only screen and (max-width: 360px) {
-
     header .navbar {
         width: 100%;
     }
@@ -515,7 +479,6 @@ form .btn {
     .form-sent {
         padding-left: 30px;
         padding-right: 30px;
-
     }
 
     /*adjust text size*/
@@ -537,7 +500,6 @@ form .btn {
 
     .socials i {
         font-size: 16px;
-
     }
 
     .socials {
@@ -558,23 +520,18 @@ form .btn {
         font-size: 8vw;
     }
 
-
-
     /*code for placeholder text alignment in contact.html*/
     textarea,
     input::placeholder {
         text-align: center;
     }
-
 }
-
 
 @media only screen and (max-width: 280px) {
     header .navbar {
         width: 100%;
         padding-right: 10px;
         padding-left: 10px;
-
     }
 
     #namelogo {
@@ -610,7 +567,6 @@ form .btn {
 
     .socials i {
         font-size: 16px;
-
     }
 
     .socials {
@@ -637,12 +593,10 @@ form .btn {
         font-family: "Poppins", sans-serif;
         color: #008080;
         font-size: large !important;
-
     }
 
     .biography .offset-2 {
         margin-left: 15vw !important;
-
     }
 
     /*code for placeholder text alignment in contact.html*/
@@ -650,5 +604,4 @@ form .btn {
     input::placeholder {
         text-align: center;
     }
-
 }
