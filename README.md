@@ -201,30 +201,15 @@ The target audience for this site is anyone who is interested in gospel music re
 
     Pls see [TESTING.md](TESTING.md) for further details and documentation.
 
-- ## E. Known Bugs
+- ## E. Deployment
 
-- Collapse hamburger menu for navbar is not showing on mobile view and carousel effect not working despite adding the bootstrap5 links. *Fixed*  
-    - Changed the `<script>` right before the `<body>` to the older version of Bootstrap4.5.3  
+### Gitpod Page
+- The Project was edited in Gitpod. You may do so by:  
 
-- Upon adding the [background-image](docs/issues-img/bg-img-issue.png) of the page, all the elements compressed and aligned horizontally instead of vertically, thereby disrupting the flow of the content. *Fixed*  
-    - It was solved by editing the css declaration for `.bg-image`  
-
-- There was a [`gitpush error`](docs/issues-img/git-push-error-issue.png) when doing the initial part of the project. *Fixed*  
-    - I had to open a new workspace in gitpod and copy-paste all initial codes. Also, all the media items were compressed to fit the recommended size allowance.  
-
-- The width of the [audio element's size](docs/issues-img/audio-issue.png) is non-responsive. *Fixed*  
-    - It was fixed by adding `width: 10em` css.  
-
-- Boostrap5 link in the head element and Bootstrap4.5.3 in the body element. *not fixed*  
-    - I tried to changed it so that it will be one version of bootstrap only for uniformity. However, the overall layout and functionality of the site was effected.  
-
-- Font color of links when opening the website is white. *Fixed*  
-    - It was solved by deleting the pseudo class :link; in the navbar in css.  
-
-- At 992px width in Chrome Dev Tool, the [background color](docs/issues-img/navbar-bg-color-issue.png) appearing in navbar is similar to the color of the navigation menu on toggle mode. *Fixed*  
-    - It was fixed using media query `@media only screen and (max-width: 991.98px)`  
-
-- ## F. Deployment
+1. Install [**Gitpod browser extension**](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki)
+1. Once installed, navigate to your Github Page and choose the repository you wish to edit then click it.
+1. on that repository, click the green **Gitpod** button.
+3. After clicking, a new page will be opened and it will be directed to you Gitpod workspace.
 
 ### Github Pages
 
@@ -265,7 +250,7 @@ Please click [link in Github](https://docs.github.com/en/github/creating-cloning
 ### Code
 - The background image code came from this post in [stackoverflow](https://stackoverflow.com/questions/61450202/div-background-image-isnt-showing).  
 - The text shadow code was sourced form [css-tricks](https://css-tricks.com/almanac/properties/t/text-shadow/ for text shadow) so as the the [pseudo class code](https://css-tricks.com/remember-selectors-with-love-and-hate/) for the navlinks and the [object-fit and object-position code](https://css-tricks.com/on-object-fit-and-object-position) for proper aligntment of a photo.  
-- The box shadow code was from [W3schools](https://www.w3schools.com/css/css3_shadows_box.asp).  
+- The box shadow code and `<input type="tel">` were from [W3schools](https://www.w3schools.com/css/css3_shadows_box.asp).  
 - The code for video positioning obtained from [stackoverflow](https://stackoverflow.com/questions/34626069/how-do-i-center-an-html5-video-horizontally-and-vertically-in-a-bare-bones-html) as well as the [responsive audio width](https://stackoverflow.com/questions/5635365/html-5-audio-tag-width)  
 - The text-area place holder code was from [MOzilla](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder).  
 

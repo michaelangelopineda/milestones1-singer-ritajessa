@@ -29,7 +29,10 @@
 2. Pick the song you want to listen to   
 3. Click the play button    
 
+- Desktop  
 ![How to listen to music](docs/user-story-testing-img/my-music-desktop.png)  
+
+- Mobile  
 ![How to listen to music](docs/user-story-testing-img/my-music-mob.png)    
 
 - **2.	As an artist’s fan, I want to watch latest videos of the artists so that I can enjoy her music more.**  
@@ -39,7 +42,10 @@
 1. Go to Home page and scroll down to My New Release Section    
 3. Click the play button    
 
+- Desktop  
 ![How to watch video](docs/user-story-testing-img/my-new-release-section-desktop.png)  
+
+- Mobile  
 ![How to watch video](docs/user-story-testing-img/my-new-release-section-mob.png)    
 
 - **3.	As an artist’s fan, I want to Know all the upcoming events where she will be performing so I can go there and support her.**   
@@ -51,7 +57,10 @@
 2. Click the event you wish to know about  
 3. The Event will be highlighted upon hovering the mouse (desktop)/ after clicking it (mobile)  
 
+- Desktop 
 ![How to view upcoming events](docs/user-story-testing-img/upcoming-events-desktop.png)  
+
+- Mobile  
 ![How to view upcoming events](docs/user-story-testing-img/upcoming-events-mob.png)   
 
 - **4.	As an artist’s fan, I want to know about her background and history so that I will know more about her and how she became she is.**   
@@ -64,7 +73,10 @@
 2. Scroll down for the Biography Section  
 
 
+- Desktop  
 ![How to view Biography](docs/user-story-testing-img/biography-desktop.png)   
+
+- Mobile  
 ![How to view Biography](docs/user-story-testing-img/biography-mob.png)   
 
 - **5.	As an artist’s fan, I want to see different photos of the singer so that I can appreciate how she looks in a creative way.**  
@@ -76,7 +88,10 @@
 2. Click the arrowhead beside the picture to view the photos
 3. Upon the clicking the arrowhead, you will see the next or the previous image
 
+- Desktop  
 ![How to view Photos](docs/user-story-testing-img/photo-desktop.png)   
+
+- Mobile  
 ![How to view Photos](docs/user-story-testing-img/photo-mob.png)   
 
 - **6.	As an artist’s fan, I want to Be able to contact her for possible events/booking so that She can perform if I will have an event/ gathering.**  
@@ -90,7 +105,10 @@
 4. Once finish filling it out, click the Send Message button underneath
 5. You will redirected to a feedback page that your message was successfully sent.
 
+- Desktop  
 ![How to view Photos](docs/user-story-testing-img/contact-form-desktop.png)   
+
+- Mobile  
 ![How to view Photos](docs/user-story-testing-img/contact-form-mob.png)   
 
 
@@ -102,7 +120,10 @@
 2. Type in your email address and click Subscribe   
 3. Upon clicking subscribe, you will be redirected to a feedback page upon successful sending of your newsletter subscription request    
 
+- Desktop  
 ![How to subscribe to newsletter](docs/user-story-testing-img/newsletter-subscription-desktop.png)   
+
+- Mobile  
 ![How to subscribe to newsletter](docs/user-story-testing-img/newsletter-subscription-mob.png)  
 
 - **8.	As an artist’s fan, I want to Know her social media links so that I get to know how many people follow them and how trustworthy they can be.**  
@@ -113,7 +134,10 @@
 2. Icons of the artist's social media ccount links   
 3. Upon clicking the icon, the social media webpage will open into a new page    
 
+- Desktop  
 ![How to access social media links](docs/user-story-testing-img/socials-desktop.png)   
+
+- Mobile  
 ![How to access social media links](docs/user-story-testing-img/socials-mobile.png)  
 
 
@@ -137,7 +161,10 @@
 2. You will be redirected to the Contact Page.
 3. On the contact page, scroll down and you will see the urgent contact section.
 
+- Desktop  
 ![How to find the urgent contact section](docs/user-story-testing-img/urgent-contact-desktop.png)   
+
+- Mobile  
 ![How to find the urgent contact section](docs/user-story-testing-img/urgent-contact-form.png)   
 
     -   ### c. Site Owner Goals
@@ -187,7 +214,34 @@
     -[**Desktop**](https://github.com/michaelangelopineda/milestones1-singer-ritajessa/blob/master/docs/lighthouse-testing-img/desktop-contact-lighthouse.png)   
     -[**Mobile**](https://github.com/michaelangelopineda/milestones1-singer-ritajessa/blob/master/docs/lighthouse-testing-img/mobile-contact-lighthouse.png)   
 
-## C. Further Testing
+## C. Fixed Bugs  
+
+- Collapse hamburger menu for navbar is not showing on mobile view and carousel effect not working despite adding the bootstrap5 links. *Fixed*  
+    - Changed the `<script>` right before the `<body>` to the older version of Bootstrap4.5.3  
+
+- Upon adding the [background-image](docs/issues-img/bg-img-issue.png) of the page, all the elements compressed and aligned horizontally instead of vertically, thereby disrupting the flow of the content. *Fixed*  
+    - It was solved by editing the css declaration for `.bg-image`  
+
+- There was a [`gitpush error`](docs/issues-img/git-push-error-issue.png) when doing the initial part of the project. *Fixed*  
+    - I had to open a new workspace in gitpod and copy-paste all initial codes. Also, all the media items were compressed to fit the recommended size allowance.  
+
+- The width of the [audio element's size](docs/issues-img/audio-issue.png) is non-responsive. *Fixed*  
+    - It was fixed by adding `width: 10em` css.  
+
+- Boostrap5 link in the head element and Bootstrap4.5.3 in the body element. *Fixed*  
+   -  Reconcile all bootstrap version in html document. Changed bootstrap link to `    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">`  in the head element  
+
+- Font color of links when opening the website is white. *Fixed*  
+    - It was solved by deleting the pseudo class :link; in the navbar in css.  
+
+- At 992px width in Chrome Dev Tool, the [background color](docs/issues-img/navbar-bg-color-issue.png) appearing in navbar is similar to the color of the navigation menu on toggle mode. *Fixed*  
+    - It was fixed using media query `@media only screen and (max-width: 991.98px)`  
+
+- White space in the Contact Page and Feedback Form Sent Page big devices. *Fixed*
+    - Adjusted padding and margin to push the content down to get rid of the whitespace as discussed with tutor support. I tried to target the footer element and body using css but wasnt not working. 
+
+## D. Further Testing
 
 - The Website was tested on Google Chrome, Microsoft Edge and Mozilla Firefox browsers. 
 - The websites each page was viewed and tested in Chrome Dev tool using different breakpoints emmanating the width and size of different desktop, laptop, and mobile devices. Bug in the navbar was seen at 992px width wherein the background color is different. This was fixed using media query.
