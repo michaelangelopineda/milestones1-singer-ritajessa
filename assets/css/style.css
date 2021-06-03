@@ -452,6 +452,19 @@ form .btn {
     }
 }
 
+@media only screen and (min-width: 280px) and (max-width: 1024px) {
+
+    /*To fix white space belo the footer in form-sent.html*/
+    .pt-5,
+    .py-5 {
+        padding-top: 8rem !important;
+    }
+
+    .pb-5,
+    .py-5 {
+        padding-bottom: 8rem !important;
+    }
+}
 
 /*For Moto G4 compatibility*/
 @media only screen and (max-width: 360px) {

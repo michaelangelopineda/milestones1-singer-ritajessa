@@ -238,8 +238,8 @@
 - At 992px width in Chrome Dev Tool, the [background color](docs/issues-img/navbar-bg-color-issue.png) appearing in navbar is similar to the color of the navigation menu on toggle mode. *Fixed*  
     - It was fixed using media query `@media only screen and (max-width: 991.98px)`  
 
-- White space in the Contact Page and Feedback Form Sent Page big devices. *Fixed*
-    - Adjusted padding and margin to push the content down to get rid of the whitespace as discussed with tutor support. I tried to target the footer element and body using css but wasnt not working. 
+- White space in the Contact Page and Feedback Form Sent Page in different devices. *Fixed*
+    - Adjusted padding and used media queries to target specific sections to push down the footer to the bottom of the page.  
 
 ## D. Supported Browsers
 
