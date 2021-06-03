@@ -23,8 +23,14 @@
 - **1.	As a music lover, I want to be able to see a list of songs and albums of the singer so that I can browse and play the music.**  
         - In the Home Page of the site, there is a list of songs on which the user can listen to at their discretion.  
         - The layout for these sections is very straightforward. The name of the songs to the right and the control (play) button to the right.  
-        - The song name becomes bold when hovered on to add interactivity to the user while listening to the song.  
+        - The song name becomes bold when hovered on to add interactivity to the user while listening to the song. 
 
+1. Go to Home page and scroll down to My Music Section  
+2. Pick the song you want to listen to   
+3. Click the play button    
+
+![How to listen to music](docs/user-story-testing-img/my-music-desktop.png)
+![How to listen to music](docs/user-story-testing-img/my-music-mobile.png)
 - **2.	As an artist’s fan, I want to watch latest videos of the artists o that I can enjoy her music more.**  
         - There is a dedicated New Release Section in the Home Page wherein the artist’s latest music video is posted.  
         - The user can decide whether to view it or not by clicking the play button.  
