@@ -209,7 +209,7 @@ The target audience for this site is anyone who is interested in gospel music re
 1. Install [**Gitpod browser extension**](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki).
 1. Once installed, navigate to your Github Page and choose the repository you wish to edit then click it.
 1. on that repository, click the green **Gitpod** button.
-3. After clicking, a new page will be opened and it will be directed to you Gitpod workspace.
+1. After clicking, a new page will be opened and it will be directed to you Gitpod workspace.
 
 ### Github Pages
 
