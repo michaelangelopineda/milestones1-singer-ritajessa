@@ -252,7 +252,7 @@
 
 - The site was tested for Galaxy Notes II, Galaxy S III, Moto G4, Galaxy S5, Pixel 2, Pixel 2XL, , iPhone5/SE, iPhone6/7/8, iPhone6/7/8 Plus, iPhoneX, iPad, iPad Pro, Surface Duo and Galaxy Fold.  
 
-- Please see attached file for the [table result](docs/supported-devices.xls).  
+- Please see attached file for the [table result](docs/testing-sheet.xlsx).  
 
 - A large amount of testing was done to ensure that all pages were linking correctly.
 

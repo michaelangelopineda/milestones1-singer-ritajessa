@@ -16,7 +16,7 @@ The target audience for this site is anyone who is interested in gospel music re
 
 <h2 align="center"><img src="docs/mock-up-img/mock-up.png"></h2>
 
-## A. User Experience (UX)
+## A. User Experience (UX)  
 
 -   ### 1. User stories
 
@@ -46,7 +46,9 @@ The target audience for this site is anyone who is interested in gospel music re
         4.	As the artist, I want to clients or fans to be able to contact me and my team so that I can land more gigs and events.
         5.	As the artist, I want my site to inspire people so that my purpose in singing and sharing my talent will be fulfilled.
         6.	As the artist, I want to make my site a reflection of who I am as an artist- optimistic, reflective and spiritual so that more fans will fall in love with my music.
-        7.	As music production company, I want to increase the number of people who will be revisiting the site so that to maintain artist’s social currency.
+        7.	As music production company, I want to increase the number of people who will be revisiting the site so that to maintain artist’s social currency.  
+
+    After identifying all the user stories, they were organized according to epics. Please [see attached file.](docs/EPIC AND USER STORIES.docx)
 
 
 -   ### 2. Design and Typography
@@ -209,7 +211,15 @@ The target audience for this site is anyone who is interested in gospel music re
 1. Install [**Gitpod browser extension**](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki).
 1. Once installed, navigate to your Github Page and choose the repository you wish to edit then click it.
 1. on that repository, click the green **Gitpod** button.
-1. After clicking, a new page will be opened and it will be directed to you Gitpod workspace.
+1. After clicking, a new page will be opened and it will be directed to you Gitpod workspace.  
+1. Write/ edit your codes and files in the workspace.
+1. Save the code.
+1. Check your actual output by typing `python3 -m http.server` in the terminal.
+1. A pop up window will show and click on Open Browser and a new window will open and your output will be displayed.
+1. When happy enough with the code, go back to the terminal type `git status` and check all the files that you want to save and push to you Github repository.
+1. Type `git add` + **filename** of the  files you wish to push.
+1. Then type `git commit -m "Your-Commit-Message"
+1. Lastly, you can push your changes to Github by typin in `git push`
 
 ### Github Pages
 
