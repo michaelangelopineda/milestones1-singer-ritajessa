@@ -191,7 +191,7 @@ The target audience for this site is anyone who is interested in gospel music re
     1. [Adobe Spark:](https://spark.adobe.com/sp/design/post/urn:aaid:sc:AP:fdef19ec-0d82-4ef5-9522-01c05cf49f31?_branch_match_id=922094833261166892)
         - Photoshop was used to create the logo, resizing images and editing photos for the website.
     1. [Balsamiq:](https://balsamiq.com/)
-        - Balsamiq was used to create the [wireframes](https://github.com/michaelangelopineda/milestones1-singer-ritajessa/tree/master/assets/wireframes) during the design process.
+        - Balsamiq was used to create the [wireframes](https://github.com/michaelangelopineda/milestones1-singer-ritajessa/tree/master/docs/wireframes) during the design process.
     1. [Tinyjpg:](https://tinyjpg.com/):
         - Tinyjpg was used to compress the images
     1. [Freeconvert](https://www.freeconvert.com/video-compressor):
@@ -206,7 +206,7 @@ The target audience for this site is anyone who is interested in gospel music re
 ### Gitpod Page
 - The Project was edited in Gitpod. You may do so by:  
 
-1. Install [**Gitpod browser extension**](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki)
+1. Install [**Gitpod browser extension**](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki).
 1. Once installed, navigate to your Github Page and choose the repository you wish to edit then click it.
 1. on that repository, click the green **Gitpod** button.
 3. After clicking, a new page will be opened and it will be directed to you Gitpod workspace.

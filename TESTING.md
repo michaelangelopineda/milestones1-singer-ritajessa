@@ -43,10 +43,10 @@
 3. Click the play button    
 
 - Desktop  
-![How to watch video](docs/user-story-testing-img/my-new-release-section-desktop.png)  
+![How to watch video](docs/user-story-testing-img/new-release-section-desktop.png)  
 
 - Mobile  
-![How to watch video](docs/user-story-testing-img/my-new-release-section-mob.png)    
+![How to watch video](docs/user-story-testing-img/new-release-section-mob.png)    
 
 - **3.	As an artist’s fan, I want to Know all the upcoming events where she will be performing so I can go there and support her.**   
         - The last section of the Home Page contains a table wherein the artist’s upcoming events are posted.  
@@ -106,10 +106,10 @@
 5. You will redirected to a feedback page that your message was successfully sent.
 
 - Desktop  
-![How to view Photos](docs/user-story-testing-img/contact-form-desktop.png)   
+![How to send inquiry/ booking request](docs/user-story-testing-img/contact-form-desktop.png)   
 
 - Mobile  
-![How to view Photos](docs/user-story-testing-img/contact-form-mob.png)   
+![How to send inquiry/ booking request](docs/user-story-testing-img/contact-form-mob.png)   
 
 
 - **7.	As an artist’s fan, I want to get notifications re: events/ new releases so that I get to be updated.**  
@@ -138,7 +138,7 @@
 ![How to access social media links](docs/user-story-testing-img/socials-desktop.png)   
 
 - Mobile  
-![How to access social media links](docs/user-story-testing-img/socials-mobile.png)  
+![How to access social media links](docs/user-story-testing-img/socials-mob.png)  
 
 
 - **9.	As an artist’s fan, I want to buy merchandise, limited memorabilia, album so that I can add it into my collection.**  
@@ -165,7 +165,7 @@
 ![How to find the urgent contact section](docs/user-story-testing-img/urgent-contact-desktop.png)   
 
 - Mobile  
-![How to find the urgent contact section](docs/user-story-testing-img/urgent-contact-form.png)   
+![How to find the urgent contact section](docs/user-story-testing-img/urgent-contact-mob.png)   
 
     -   ### c. Site Owner Goals
 
@@ -241,9 +241,20 @@
 - White space in the Contact Page and Feedback Form Sent Page big devices. *Fixed*
     - Adjusted padding and margin to push the content down to get rid of the whitespace as discussed with tutor support. I tried to target the footer element and body using css but wasnt not working. 
 
-## D. Further Testing
+## D. Supported Browsers
 
 - The Website was tested on Google Chrome, Microsoft Edge and Mozilla Firefox browsers. 
-- The websites each page was viewed and tested in Chrome Dev tool using different breakpoints emmanating the width and size of different desktop, laptop, and mobile devices. Bug in the navbar was seen at 992px width wherein the background color is different. This was fixed using media query.
+
+## E. Testing for Supported Devices
+
+- The websites each page was viewed and tested in Chrome Dev tool using different breakpoints emmanating the width and size of different desktop, laptop, and mobile devices. 
+
+- The site was tested for Galaxy Notes II, Galaxy S III, Moto G4, Galaxy S5, Pixel 2, Pixel 2XL, , iPhone5/SE, iPhone6/7/8, iPhone6/7/8 Plus, iPhoneX, iPad, iPad Pro, Surface Duo and Galaxy Fold.  
+
+- Please see attached file for the [table result](docs/supported-devices.xls).  
+
 - A large amount of testing was done to ensure that all pages were linking correctly.
+
+## F. Further Testing
+
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
