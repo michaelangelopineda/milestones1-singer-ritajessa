@@ -160,6 +160,10 @@ The target audience for this site is anyone who is interested in gospel music re
 
     -   This page contains a modal for inquiries and bookings so that users can get in touch with the artist management. It was designed simple and very straightforward.
 
+- ### Form-sent (Feedback) Page
+
+    -   This page contains the feedback about successfully sending a booking/inquiry or subscribing to the newsletter wherein the artist's logo at the back will redirect you back to the Home Page.
+
 - ## C. Future Features
 
     -   I would like to add a feature to the upcoming events on which user can buy tickets through the website.   
