@@ -29,16 +29,30 @@
 2. Pick the song you want to listen to   
 3. Click the play button    
 
-![How to listen to music](docs/user-story-testing-img/my-music-desktop.png)
-![How to listen to music](docs/user-story-testing-img/my-music-mobile.png)
-- **2.	As an artist’s fan, I want to watch latest videos of the artists o that I can enjoy her music more.**  
+![How to listen to music](docs/user-story-testing-img/my-music-desktop.png)  
+![How to listen to music](docs/user-story-testing-img/my-music-mob.png)    
+
+- **2.	As an artist’s fan, I want to watch latest videos of the artists so that I can enjoy her music more.**  
         - There is a dedicated New Release Section in the Home Page wherein the artist’s latest music video is posted.  
         - The user can decide whether to view it or not by clicking the play button.  
+
+1. Go to Home page and scroll down to My New Release Section    
+3. Click the play button    
+
+![How to watch video](docs/user-story-testing-img/my-new-release-desktop.png)  
+![How to watch video](docs/user-story-testing-img/my-release-mob.png)    
 
 - **3.	As an artist’s fan, I want to Know all the upcoming events where she will be performing so I can go there and support her.**   
         - The last section of the Home Page contains a table wherein the artist’s upcoming events are posted.  
         - The table’s first column shows where the event will be. The second column contains the date and the last one contains the time.  
-        - And to add visual engagement and interactivity, the row of the event hovered on becomes highlighted subtly to give ensure that the user is reading the correct information of the event.  
+        - And to add visual engagement and interactivity, the row of the event hovered on becomes highlighted subtly to give ensure that the user is reading the correct information of the event.   
+
+1. Go to Home page and scroll down to Upcoming Events Section  
+2. Click the event you wish to know about  
+3. The Event will be highlighted upon hovering the mouse (desktop)/ after clicking it (mobile)  
+
+![How to view upcoming events](docs/user-story-testing-img/upcoming-events-desktop.png)  
+![How to view upcoming events](docs/user-story-testing-img/upcoming-events-mob.png)   
 
 - **4.	As an artist’s fan, I want to know about her background and history so that I will know more about her and how she became she is.**   
         - To address this story, there is a dedicated Bio Page in the website.  
@@ -46,25 +60,61 @@
         - There is also quotation from a friend of hers that best describes the artist.  
         - The layout is very straight forward and the quotations is big enough so that user can immediately read it and have a general idea of who the artist is.  
 
+1. On the Home at the top right corner of the page, click the Bio button (desktop)/  Toggler menu (hamburger icon) and click Bio on the dropdeown menu (mobile)
+2. Scroll down for the Biography Section  
+
+
+![How to view Biography](docs/user-story-testing-img/biography-desktop.png)   
+![How to view Biography](docs/user-story-testing-img/biography-mob.png)   
+
 - **5.	As an artist’s fan, I want to see different photos of the singer so that I can appreciate how she looks in a creative way.**  
         - The photo section is displayed in the Bio Page before the actual biography is.  
         - Initially, it was at the bottom half of the page but after careful consideration, I decided to place it at the top of Biography itself as it long enough that people might lose interest to read it until the end and see the photos.  
         - The photos are displayed in a carousel effect using bootstraps carousel. This effect gives a interactivity, engagement and visual interest to the user.  
+
+1. On the Home at the top right corner of the page, click the Bio button (desktop)/  Toggler menu (hamburger icon) and click Bio on the dropdeown menu (mobile)
+2. Click the arrowhead beside the picture to view the photos
+3. Upon the clicking the arrowhead, you will see the next or the previous image
+
+![How to view Photos](docs/user-story-testing-img/photo-desktop.png)   
+![How to view Photos](docs/user-story-testing-img/photo-mob.png)   
 
 - **6.	As an artist’s fan, I want to Be able to contact her for possible events/booking so that She can perform if I will have an event/ gathering.**  
         - The Contact Page contains a modal wherein they can send inquiries/booking.  
         - The modal contains Name, Email Address, Contact Number and Description of the Inquiry/Booking. Once the user has completely filled out the information. They can click the Send button.  
         - The Send button has a contrasting colour to the form itself to make sure the user can see it and intuitively click it after the details are filled out.  
 
+1. On the Home at the top right corner of the page, click the Contact link (desktop)/  Toggler menu (hamburger icon) and click Contact on the dropdeown menu (mobile)
+2. You will be redirected to the Contact Page.
+3. On the contact page, fill in the necessary information and add your inquiry/message.
+4. Once finish filling it out, click the Send Message button underneath
+5. You will redirected to a feedback page that your message was successfully sent.
+
+![How to view Photos](docs/user-story-testing-img/contact-form-desktop.png)   
+![How to view Photos](docs/user-story-testing-img/contact-form.png)   
+
 
 - **7.	As an artist’s fan, I want to get notifications re: events/ new releases so that I get to be updated.**  
         - The footer section, which sits at the bottom of every page, contains a simple form on which user can fill in in their Email Address and click the Subscription button to subscribe.  
-        - The Subscribe button sits next to the Email and can be easily distinguished and intuitively clicked due to a contrasting colour to the Email input.  
+        - The Subscribe button sits next to the Email and can be easily distinguished and intuitively clicked due to a ontrasting colour to the Email input.  
 
+1. On any page in the website, scroll down to the bottom   
+2. Type in your email address and click Subscribe   
+3. Upon clicking subscribe, you will be redirected to a feedback page upon successful sending of your newsletter subscription request    
+
+![How to subscribe to newsletter](docs/user-story-testing-img/newsletter-subscription-desktop.png)   
+![How to subscribe to newsletter](docs/user-story-testing-img/newsletter-subscription.png)  
 
 - **8.	As an artist’s fan, I want to Know her social media links so that I get to know how many people follow them and how trustworthy they can be.**  
         - The footer section, which sits at the bottom of every page, contains icons to the artist’s social media accounts.  
         - When clicked, the icons are opened in a new tab so that users can easily go back the artist site after viewing the social media account.  
+
+1. On any page in the website, scroll down to the bottom   
+2. Icons of the artist's social media ccount links   
+3. Upon clicking the icon, the social media webpage will open into a new page    
+
+![How to access social media links](docs/user-story-testing-img/socials-desktop.png)   
+![How to access social media links](docs/user-story-testing-img/socials.png)  
 
 
 - **9.	As an artist’s fan, I want to buy merchandise, limited memorabilia, album so that I can add it into my collection.**  
@@ -81,7 +131,14 @@
         - The layout of the site was designed for the convenience of the user so it can be read from top to bottom, left to right.
 
 - **3.	As potential fan, I want to be able to contact someone immediately if I need to so that it will save me the hassle of waiting for a long response.**  
-        - There is a dedicated contact page in the site wherein an immediate contact number for the music production handling the artist is present. The user can ring the number should they have immediate concerns.
+        - There is a dedicated contact page in the site wherein an immediate contact number for the music production handling the artist is present. The user can ring the number should they have immediate concerns.   
+
+1. On the Home at the top right corner of the page, click the Contact link (desktop)/  Toggler menu (hamburger icon) and click Contact on the dropdown menu (mobile)
+2. You will be redirected to the Contact Page.
+3. On the contact page, scroll down and you will see the urgent contact section.
+
+![How to find the urgent contact section](docs/user-story-testing-img/urgent-contact-desktop.png)   
+![How to find the urgent contact section](docs/user-story-testing-img/urgent-contact-form.png)   
 
     -   ### c. Site Owner Goals
 
