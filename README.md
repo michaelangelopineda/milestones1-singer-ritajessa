@@ -48,8 +48,7 @@ The target audience for this site is anyone who is interested in gospel music re
         6.	As the artist, I want to make my site a reflection of who I am as an artist- optimistic, reflective and spiritual so that more fans will fall in love with my music.
         7.	As music production company, I want to increase the number of people who will be revisiting the site so that to maintain artist’s social currency.  
 
-    After identifying all the user stories, they were organized according to epics. Please [see attached file.](docs/EPIC AND USER STORIES.docx)
-
+    After identifying all the user stories, they were organized according to epics. Please [see attached file](docs/epic-user-story.docx).
 
 -   ### 2. Design and Typography
 
@@ -214,15 +213,15 @@ The target audience for this site is anyone who is interested in gospel music re
 
 1. Install [**Gitpod browser extension**](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki).
 1. Once installed, navigate to your Github Page and choose the repository you wish to edit then click it.
-1. on that repository, click the green **Gitpod** button.
+1. On that repository, click the green **Gitpod** button.
 1. After clicking, a new page will be opened and it will be directed to you Gitpod workspace.  
 1. Write/ edit your codes and files in the workspace.
 1. Save the code.
 1. Check your actual output by typing `python3 -m http.server` in the terminal.
-1. A pop up window will show and click on Open Browser and a new window will open and your output will be displayed.
+1. A pop up window will show and click on **Open Browser** and a new window will open and your output will be displayed.
 1. When happy enough with the code, go back to the terminal type `git status` and check all the files that you want to save and push to you Github repository.
 1. Type `git add` + **filename** of the  files you wish to push.
-1. Then type `git commit -m "Your-Commit-Message"
+1. Then type `git commit -m "Your-Commit-Message"`
 1. Lastly, you can push your changes to Github by typin in `git push`
 
 ### Github Pages
@@ -266,7 +265,7 @@ Please click [link in Github](https://docs.github.com/en/github/creating-cloning
 - The text shadow code was sourced form [css-tricks](https://css-tricks.com/almanac/properties/t/text-shadow/ for text shadow) so as the the [pseudo class code](https://css-tricks.com/remember-selectors-with-love-and-hate/) for the navlinks and the [object-fit and object-position code](https://css-tricks.com/on-object-fit-and-object-position) for proper aligntment of a photo.  
 - The box shadow code and `<input type="tel">` were from [W3schools](https://www.w3schools.com/css/css3_shadows_box.asp).  
 - The code for video positioning obtained from [stackoverflow](https://stackoverflow.com/questions/34626069/how-do-i-center-an-html5-video-horizontally-and-vertically-in-a-bare-bones-html) as well as the [responsive audio width](https://stackoverflow.com/questions/5635365/html-5-audio-tag-width)  
-- The text-area place holder code was from [MOzilla](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder).  
+- The text-area place holder code was from [Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder).  
 
 ### References
 

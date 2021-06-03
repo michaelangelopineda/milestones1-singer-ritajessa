@@ -194,8 +194,10 @@
 
 ## B. Chrome dev tool  
 
-## Lighthouse  
-    
+## Lighthouse    
+  
+Lighthouse Testing before my second mentor session was done.  
+      
 - ### Home Page  
     The issue I had upon testing the hope page was initially the Progress report was below 50%. I had to changed all the images for better loading time. After same, report was 70% only. In order to deal with this, I had to hide images using media queries and added <meta name="description" content="...">. Also, i added <width="..." height=".."> attribute to images. After doing same, report became >90%.
 
