@@ -357,9 +357,18 @@ form .btn {
 /*--------------------------------------------------------------------------- CONTACT-urgent*/
 .music-production:hover {
     font-weight: bold;
+}
+
+.btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
+    background-color: #dde9e6;
+    color: #008080;
+    border-color: #dde9e6;
 
 }
 
+.btn.disabled, .btn:disabled {
+    opacity: 1;
+}
 /*--------------------------------------------------------------------------- media queries*/
 /*--------------------------------------------------------------------------- Mobile media queries*/
 
