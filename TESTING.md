@@ -39,8 +39,8 @@
 1. Go to Home page and scroll down to My New Release Section    
 3. Click the play button    
 
-![How to watch video](docs/user-story-testing-img/my-new-release-desktop.png)  
-![How to watch video](docs/user-story-testing-img/my-release-mob.png)    
+![How to watch video](docs/user-story-testing-img/my-new-release-section-desktop.png)  
+![How to watch video](docs/user-story-testing-img/my-new-release-section-mob.png)    
 
 - **3.	As an artist’s fan, I want to Know all the upcoming events where she will be performing so I can go there and support her.**   
         - The last section of the Home Page contains a table wherein the artist’s upcoming events are posted.  
@@ -91,7 +91,7 @@
 5. You will redirected to a feedback page that your message was successfully sent.
 
 ![How to view Photos](docs/user-story-testing-img/contact-form-desktop.png)   
-![How to view Photos](docs/user-story-testing-img/contact-form.png)   
+![How to view Photos](docs/user-story-testing-img/contact-form-mob.png)   
 
 
 - **7.	As an artist’s fan, I want to get notifications re: events/ new releases so that I get to be updated.**  
@@ -103,7 +103,7 @@
 3. Upon clicking subscribe, you will be redirected to a feedback page upon successful sending of your newsletter subscription request    
 
 ![How to subscribe to newsletter](docs/user-story-testing-img/newsletter-subscription-desktop.png)   
-![How to subscribe to newsletter](docs/user-story-testing-img/newsletter-subscription.png)  
+![How to subscribe to newsletter](docs/user-story-testing-img/newsletter-subscription-mob.png)  
 
 - **8.	As an artist’s fan, I want to Know her social media links so that I get to know how many people follow them and how trustworthy they can be.**  
         - The footer section, which sits at the bottom of every page, contains icons to the artist’s social media accounts.  
@@ -114,7 +114,7 @@
 3. Upon clicking the icon, the social media webpage will open into a new page    
 
 ![How to access social media links](docs/user-story-testing-img/socials-desktop.png)   
-![How to access social media links](docs/user-story-testing-img/socials.png)  
+![How to access social media links](docs/user-story-testing-img/socials-mobile.png)  
 
 
 - **9.	As an artist’s fan, I want to buy merchandise, limited memorabilia, album so that I can add it into my collection.**  
