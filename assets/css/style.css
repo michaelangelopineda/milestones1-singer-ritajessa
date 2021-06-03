@@ -9,7 +9,6 @@ body {
     width: 100%
 }
 
-
 /*For arrangement of section content upon adding bg-image*/
 .bg-image {
     height: 100vh;
@@ -20,10 +19,7 @@ body {
     background-size: cover;
 }
 
-
-
-/*--------------------------------------------------------------------------- Color*/
-
+/*Color*/
 .bg-color-navbar {
     background-color: #00C9CD;
 }
@@ -93,7 +89,6 @@ h6 {
 .uppercase {
     text-transform: uppercase;
 }
-
 
 .gen-heading {
     letter-spacing: 10px;
@@ -165,7 +160,6 @@ header {
     text-align: center;
     font-size: 20px;
 }
-
 
 .navbar-toggler {
     margin-right: 20px;
