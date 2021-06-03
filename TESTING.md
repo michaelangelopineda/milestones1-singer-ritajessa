@@ -6,6 +6,7 @@
 - [index.html](docs/html-validation-img/html-validation-index.png)
 - [bio.html](docs/html-validation-img/html-validation-bio.png)
 - [contact.html](docs/html-validation-img/html-validation-contact.png)
+- [form-sent.html](docs/html-validation-img/html-validation-form-sent.png)
 ### b. CSS Validation  
 
 - <p>
